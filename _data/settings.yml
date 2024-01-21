@@ -1,0 +1,130 @@
+#-------------------------------
+# Site Settings
+title: Horacio's Blog 
+logo: # You can add own logo. For example '/images/logo.png'.
+description: Writing about technology, cybersecurity, and full-stack development.
+color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
+
+
+#-------------------------------
+# Navigation Settings
+menu__settings:
+  menu__items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Blog'
+      url: '/blog/'
+    - title: 'Tags'
+      submenu:
+      - url: '/tags/?tag=technology'
+        title: 'Technology'
+      - url: '/tags/?tag=security'
+        title: 'Security'
+
+#-------------------------------
+# Hero Settings
+hero:
+  enable: true
+  hero__title: Thoughts, stories and ideas.
+  hero__description:  # hero description
+  hero__image: '/images/blog_tech5.avif' # You can add hero image. For example '/images/06.jpg'
+
+
+#-------------------------------
+# Author Global Settings
+author:
+  author__name: Horacio Santoyo
+  author__bio: I'm an LA-based inde hacker and Full-stack developer
+  author__avatar: /images/horacio.jpg
+
+
+#-------------------------------
+# Blog Section Settings
+blog__settings:
+  enable: true
+  blog__title: Latest Posts
+  blog__description:
+
+
+#-------------------------------
+# Tag Section Settings
+tag__settings:
+  enable: true
+  tag: technology # To display the tag section, specify your favorite tag.
+
+
+#-------------------------------
+# Author Section Settings
+author__section:
+  enable: true
+  author__section__title: Hello, my name is Horacio. I'm a full-stack developer and Cybersecurity professional.
+  author__section__description: I graduated from Cal State in 2021 with a Bachelor of Arts in Computer Technology and a Master of Science in Cybersecurity. I have over 20 years experience working in the tech industry.
+  aurhor__section__button__text: More About Me
+  aurhor__section__button__link: /about
+  author__section__big__image: /images/horacio2.jpg
+  author__section__small__image: /images/horacio.jpg
+
+
+#-------------------------------
+# Newsletter Settings
+newsletter__settings:
+  enable: true
+  newsletter__title: Subscribe 
+  newsletter__description: Subscribe to our newsletter and we’ll send you the emails of latest posts.
+  newsletter__email: mnqejawn # formspree integration
+  newsletter__input__text: Your email address
+  newsletter__button__text: Subscribe
+  newsletter__background__image: /images/subscribe-bg.jpg
+
+
+#-------------------------------
+# Mailchimp Settings
+mailchimp__settings:
+  enable: false
+  mailchimp__title: Get interesting news
+  mailchimp__description: Subscribe to our newsletter.
+  mailchimp__input__text: Your email address
+  mailchimp__button__text: Subscribe
+  mailchimp__background__image: /images/subscribe-bg.jpg
+
+
+#-------------------------------
+# Footer Settings
+footer__description: Writing about technology, cybersecurity, and full-stack development.
+
+
+# Social Links
+social:
+- {icon: "twitter", link: "https://twitter.com/hsantoyo_sec"}
+- {icon: "linkedin", link: "https://linkedin.com/in/hsantoyo"}
+
+# Example of adding a new link to the footer - {icon: "instagram", link: "https://instagram.com"}
+# Other icons can be found at https://ionicons.com/v4/
+
+
+# Footer Navigation
+footer__menu__settings:
+  menu__items:
+    - title: 'Home'
+      url: '/'
+    - title: 'Contact'
+      url: '/contact/'
+
+#-------------------------------
+# Contact Settings
+contact:
+  email: xjvngblg # Add your form_id
+  description: How can we help you? Send us a message and we'll reply as soon as we can. # Add a description of your form
+
+# NOTE
+# Mria theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
+
+
+#-------------------------------
+# Comment Section (Disqus)
+disqus-identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvodstudio-demo
+
+
+#-------------------------------
+# Google Analytics
+google-analytics: # Add your GA Tracking Id
