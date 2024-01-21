@@ -4,7 +4,7 @@ title:  "10 Platforms to Learn Cybersecurity"
 description:  "List of cybersecurity platforms"
 date:   2024-01-20 17:27:34 -0800
 author: horacio 
-image:  '/images/cybersecurity.avif'
+image:  '/images/cybersecurity.jpg'
 tags:   [security]
 ---
 

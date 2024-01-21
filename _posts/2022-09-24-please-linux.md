@@ -5,7 +5,7 @@ date:   2022-09-24 00:00:00 -0800
 categories: jekyll 
 description: Forgot to use 'sudo'?
 author: horacio 
-image:  '/images/sudo_please.avif'
+image:  '/images/sudo_please.jpg'
 tags:   [technology]
 tags_color: '#477690'
 ---
