@@ -1,0 +1,90 @@
+---
+layout: default
+---
+
+<style>
+  .author {
+    p {
+      max-width: 780px !important;
+    }
+    a:link {
+      text-decoration: underline; 
+    }
+
+    a:hover {
+      background-color: rgb(125, 186, 255);
+    }
+
+  }
+</style>
+
+{% if page.cover %}
+<!-- begin hero image -->
+<div class="hero__image">
+  <div class="hero__image__inner">
+    <img class="lazy" data-src="{{page.cover}}" alt="{{page.name}}" />
+  </div>
+</div>
+<!-- end hero image -->
+{% endif %}
+
+<!-- begin about -->
+<section class="author">
+  <div class="container">
+    <div class="author__content">
+      <h1
+        class="author__name"
+        style="
+          margin: 0 auto 60px;
+          max-width: 70rem;
+          font-size: 5rem;
+          line-height: 1.1;
+        "
+      >
+        Hi-I'm {{ page.name }}. {{ page.headline }}
+      </h1>
+
+      <div class="author__image">
+        <img class="lazy" data-src="{{ page.image }}" alt="{{ page.name }}" />
+      </div>
+      <div class="author__info">
+        {% if page.location %}
+        <span class="author__social__item"
+          ><i class="ion ion-md-pin"></i> {{ page.location }}</span
+        >
+        {% endif %} {% if page.website %}
+        <a
+          class="author__social__item"
+          href="{{ page.website }}"
+          aria-label="Website link"
+          ><i class="ion ion-ios-link"></i> Website</a
+        >
+        {% endif %} {% if page.twitter %}
+        <a
+          class="author__social__item"
+          href="{{ page.twitter }}"
+          aria-label="Twitter link"
+          ><i class="ion ion-logo-twitter"></i> Twitter</a
+        >
+        {% endif %} {% if page.linkedin %}
+        <a
+          class="author__social__item"
+          href="{{ page.linkedin }}"
+          aria-label="Linkedin link"
+          ><i class="ion ion-logo-linkedin"></i> LinkedIn</a
+        >
+        {% endif %} {% if page.facebook %}
+        <a
+          class="author__social__item"
+          href="{{ page.facebook }}"
+          aria-label="Facebook link"
+          ><i class="ion ion-logo-facebook"></i> Facebook</a
+        >
+        {% endif %}
+      </div>
+
+      {{ content }}
+    </div>
+  </div>
+</section>
+<!-- end about -->

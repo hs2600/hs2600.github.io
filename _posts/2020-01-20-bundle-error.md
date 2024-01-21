@@ -5,7 +5,7 @@ date:   2020-01-20 17:27:34 -0800
 categories: jekyll 
 description:
 author: horacio 
-image:  '/images/blog_tech6.avif'
+image:  '/images/blog_tech6.jpg'
 tags:   [technology, jekyll]
 tags_color: '#477690'
 ---
