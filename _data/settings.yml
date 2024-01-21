@@ -70,7 +70,7 @@ author__section:
 newsletter__settings:
   enable: true
   newsletter__title: Subscribe 
-  newsletter__description: Subscribe to our newsletter and we’ll send you the emails of latest posts.
+  newsletter__description: Subscribe to our newsletter for future blog posts.
   newsletter__email: mnqejawn # formspree integration
   newsletter__input__text: Your email address
   newsletter__button__text: Subscribe
