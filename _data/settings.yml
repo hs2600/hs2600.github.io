@@ -1,6 +1,6 @@
 #-------------------------------
 # Site Settings
-title: Horacio's Blog 
+title: Horacio Santoyo 
 logo: # You can add own logo. For example '/images/logo.png'.
 description: Writing about technology, cybersecurity, and full-stack development.
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
@@ -14,6 +14,8 @@ menu__settings:
       url: '/'
     - title: 'Blog'
       url: '/blog/'
+    - title: 'About'
+      url: '/about/'
     - title: 'Tags'
       submenu:
       - url: '/tags/?tag=technology'
@@ -27,7 +29,7 @@ hero:
   enable: true
   hero__title: Thoughts, stories and ideas.
   hero__description:  # hero description
-  hero__image: '/images/blog_tech5.avif' # You can add hero image. For example '/images/06.jpg'
+  hero__image: '/images/blog_tech5.jpg' # You can add hero image. For example '/images/06.jpg'
 
 
 #-------------------------------
@@ -61,7 +63,7 @@ author__section:
   author__section__description: I graduated from Cal State in 2021 with a Bachelor of Arts in Computer Technology and a Master of Science in Cybersecurity. I have over 20 years experience working in the tech industry.
   aurhor__section__button__text: More About Me
   aurhor__section__button__link: /about
-  author__section__big__image: /images/horacio2.jpg
+  author__section__big__image: /images/horacio_lacma.jpg
   author__section__small__image: /images/horacio.jpg
 
 
@@ -70,7 +72,7 @@ author__section:
 newsletter__settings:
   enable: true
   newsletter__title: Subscribe 
-  newsletter__description: Subscribe to our newsletter for future blog posts.
+  newsletter__description: Join my mailing list for a future newsletter.
   newsletter__email: mnqejawn # formspree integration
   newsletter__input__text: Your email address
   newsletter__button__text: Subscribe
@@ -107,14 +109,16 @@ footer__menu__settings:
   menu__items:
     - title: 'Home'
       url: '/'
+    - title: 'About'
+      url: '/about/'
     - title: 'Contact'
       url: '/contact/'
 
 #-------------------------------
 # Contact Settings
 contact:
-  email: xjvngblg # Add your form_id
-  description: How can we help you? Send us a message and we'll reply as soon as we can. # Add a description of your form
+  email: xjvngblg # Add your form_id from FormSpree
+  description: Leave a message below and I'll reply as soon as I can. # Add a description of your form
 
 # NOTE
 # Mria theme comes with a contact form built-in. You can use this form with Formspree (https://formspree.io/) service and get up to 50 submissions for free. Also, you can easily switch to another service if you want.
