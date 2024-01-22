@@ -9,8 +9,6 @@ image:  '/images/mfa.webp'
 tags:   [security]
 tags_color: '#993333'
 ---
-I originally wrote this article for a school paper. I'm brand new to hashnode and thought this would be a good opportunity to upload this as my first post.
-
 Multi Factor Authentication (MFA), is the process of confirming a user’s identity with the use of two or more security mechanisms (factors). Only after all pieces of evidence have been successfully confirmed, access to the user is granted.
 
 Using multi-factor authentication provides a secure authentication mechanism that is not the primary target of brute force attacks as traditional single-factor methods like username/password combinations.
