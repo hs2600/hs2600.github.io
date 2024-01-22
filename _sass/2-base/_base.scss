@@ -69,25 +69,15 @@ h6 {
 }
 
 blockquote {
-  position: relative;
-  margin: 32px 0;
-  padding: 24px 0 24px 56px;
-  font-family: $heading-font-family;
-  font-size: 30px;
-  line-height: 1.6;
-  font-style: normal;
-  color: var(--heading-font-color);
-
-  &::before {
-    content: '\201C';
-    position: absolute;
-    top: 0.7em;
-    left: 0;
-    font-family: $base-font-family;
-    font-size: 3.5em;
-    line-height: 0;
-    color: var(--heading-font-color);
-  }
+    font-family: "Noto Serif","Times New Roman",Georgia,serif;
+    font-size: 1rem;
+    color: #777777;
+    font-style: italic;
+    line-height: 1.6;
+    background: #a7a7a71c;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 1em 20px;
 
   p {
     margin-bottom: 0;
@@ -110,6 +100,30 @@ blockquote {
     &::before {
       top: 0.63em;
     }
+  }
+}
+
+.author {
+  blockquote {
+    position: relative;
+    margin: 32px 0;
+    padding: 24px 0 24px 56px;
+    font-size: 30px;
+    background: none;
+    border: none; 
+    color: var(--heading-font-color);
+
+    &::before {
+      content: '\201C';
+      position: absolute;
+      top: 0.7em;
+      left: 0;
+      font-family: $base-font-family;
+      font-size: 3.5em;
+      line-height: 0;
+      color: var(--heading-font-color);
+    }
+
   }
 }
 
