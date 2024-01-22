@@ -27,7 +27,7 @@ permalink: /tags/
           <div class="tag__info">
             <div class="tag__counter">{{ site.tags[this_word].size }}
               {% if site.tags[page.tag].size < 2 %}Post{% else %}Posts{% endif %}</div>
-                <h2 class="tag__name">{{ this_word }}</h2>
+                <h2 class="tag__name">{{ this_word | replace: "kba", "Knowledge Base"}}</h2>
             </div>
           </div>
         </div>

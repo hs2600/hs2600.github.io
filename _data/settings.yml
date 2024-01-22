@@ -29,7 +29,7 @@ menu__settings:
 # Hero Settings
 hero:
   enable: true
-  hero__title: Thoughts, stories and ideas.
+  hero__title: A blog about technology and cybersecurity.
   hero__description:  # hero description
   hero__image: '/images/blog_tech5.jpg' # You can add hero image. For example '/images/06.jpg'
 
@@ -54,7 +54,7 @@ blog__settings:
 # Tag Section Settings
 tag__settings:
   enable: true
-  tag: technology # To display the tag section, specify your favorite tag.
+  tag: kba # To display the tag section, specify your favorite tag.
 
 
 #-------------------------------
