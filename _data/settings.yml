@@ -58,12 +58,12 @@ tag__settings:
 #-------------------------------
 # Author Section Settings
 author__section:
-  enable: true
+  enable: false
   author__section__title: Hello, my name is Horacio. I'm a full-stack developer and Cybersecurity professional.
   author__section__description: I graduated from Cal State in 2021 with a Bachelor of Arts in Computer Technology and a Master of Science in Cybersecurity. I have over 20 years experience working in the tech industry.
   aurhor__section__button__text: More About Me
   aurhor__section__button__link: /about
-  author__section__big__image: /images/horacio_lacma.jpg
+  author__section__big__image: /images/horacio_lacma2.jpg
   author__section__small__image: /images/horacio.jpg
 
 
@@ -131,4 +131,4 @@ disqus-identifier: anvod-studio-test # Add your shortname for Disqus Comment. Fo
 
 #-------------------------------
 # Google Analytics
-google-analytics: # Add your GA Tracking Id
+google-analytics: G-H08WBFW2FS # Add your GA Tracking Id
