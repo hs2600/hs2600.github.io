@@ -5,7 +5,7 @@ date:   2024-01-21 00:00:00 -0800
 description:
 author: horacio 
 image:  '/images/premium_photo-1661277604122-4324e519402a.jpg'
-tags:   [technology]
+tags:   [technology, saas, startups]
 tags_color: '#477690'
 ---
 As a SaaS business, it is important to maximise visibility and reach potential customers. One effective way to do this is by listing your product on SaaS directories. These directories serve as a platform to showcase your product, increase brand awareness, and attract new customers and boost SEO. 

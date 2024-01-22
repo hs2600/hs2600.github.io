@@ -4,8 +4,8 @@ title: Vim number increment shortcut
 date:   2024-01-21 00:00:00 -0800
 description:
 author: horacio 
-image:  '/images/photo-1526920929362-5b26677c148c.jpg'
-tags:   [technology]
+image:  '/images/notes.avif'
+tags:   [kba]
 tags_color: '#477690'
 ---
 

@@ -22,6 +22,8 @@ menu__settings:
         title: 'Technology'
       - url: '/tags/?tag=security'
         title: 'Security'
+      - url: '/tags/?tag=kba'
+        title: 'Knowledge Base'
 
 #-------------------------------
 # Hero Settings

@@ -1,6 +1,7 @@
 ---
 username: horacio
 name: Horacio
+title: Author - Horacio
 image: '/images/horacio.jpg'
 cover:
 location: Los Angeles 
