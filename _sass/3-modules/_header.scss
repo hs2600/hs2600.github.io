@@ -240,6 +240,11 @@
       background-color: var(--background-alt-color);
     }
   }
+
+  .logo__image {
+   filter: invert(1);
+  }
+
 }
 
 /* Humburger Menu */
