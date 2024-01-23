@@ -1,10 +1,9 @@
 #-------------------------------
 # Site Settings
 title: Horacio Santoyo 
-logo: # You can add own logo. For example '/images/logo.png'.
-description: Writing about technology, cybersecurity, and full-stack development.
+logo: /images/logo.png # You can add own logo. For example '/images/logo.png'.
+description: Level up your tech game. Read our blog for expert insights on technology, cybersecurity, and full-stack development.
 color_scheme: auto # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
-
 
 #-------------------------------
 # Navigation Settings
@@ -29,8 +28,8 @@ menu__settings:
 # Hero Settings
 hero:
   enable: true
-  hero__title: A blog about technology and cybersecurity.
-  hero__description:  # hero description
+  hero__title: 
+  hero__description:  Unleash your inner tech wizard. Explore the possibilities of technology, cybersecurity, and full-stack development. # hero description
   hero__image: '/images/blog_tech5.jpg' # You can add hero image. For example '/images/06.jpg'
 
 
@@ -65,7 +64,7 @@ author__section:
   author__section__description: I graduated from Cal State in 2021 with a Bachelor of Arts in Computer Technology and a Master of Science in Cybersecurity. I have over 20 years experience working in the tech industry.
   aurhor__section__button__text: More About Me
   aurhor__section__button__link: /about
-  author__section__big__image: /images/horacio_lacma2.jpg
+  author__section__big__image: /images/horacio_lacma.jpg
   author__section__small__image: /images/horacio.jpg
 
 
@@ -94,7 +93,7 @@ mailchimp__settings:
 
 #-------------------------------
 # Footer Settings
-footer__description: Writing about technology, cybersecurity, and full-stack development.
+footer__description: Untangling the tech knot. Dive into insights on the latest tech trends, cybersecurity hacks, and full-stack dev magic.
 
 
 # Social Links
