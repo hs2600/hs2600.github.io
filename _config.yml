@@ -25,6 +25,15 @@ collections:
   posts:
     output: true
     permalink: /blog/:slug
+  kbas:
+    output: true
+    permalink: /kba/:slug
+  tutorials:
+    output: true
+    permalink: /tutorial/:slug
+  cheats:
+    output: true
+    permalink: /cheat-sheet/:slug
   authors:
     output: true
     permalink: /:name
