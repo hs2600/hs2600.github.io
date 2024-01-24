@@ -4,12 +4,49 @@ layout: null
 [
   {% for post in site.posts %}
     {
+      "type"     : "Blog",
       "title"    : "{{ post.title | escape }}",
       "category" : "{{ post.category }}",
       "tags"     : "{{ post.tags | array_to_sentence_string }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",
       "date"     : "{{ post.date | date_to_long_string }}",
       "image"    : "{{ post.image }}"
+    }, 
+  {% endfor %}
+
+  {% for tutorial in site.tutorials %}
+    {
+      "type"     : "Tutorial",
+      "title"    : "{{ tutorial.title | escape }}",
+      "category" : "{{ tutorial.category }}",
+      "tags"     : "{{ tutorial.tags | array_to_sentence_string }}",
+      "url"      : "{{ site.baseurl }}{{ tutorial.url }}",
+      "date"     : "{{ tutorial.date | date_to_long_string }}",
+      "image"    : "{{ tutorial.image }}"
+    }, 
+  {% endfor %}
+
+  {% for cheat in site.cheats %}
+    {
+      "type"     : "Cheat-Sheet",
+      "title"    : "{{ cheat.title | escape }}",
+      "category" : "{{ cheat.category }}",
+      "tags"     : "{{ cheat.tags | array_to_sentence_string }}",
+      "url"      : "{{ site.baseurl }}{{ cheat.url }}",
+      "date"     : "{{ cheat.date | date_to_long_string }}",
+      "image"    : "{{ cheat.image }}"
+    }, 
+  {% endfor %}
+
+  {% for kba in site.kbas %}
+    {
+      "type"     : "Knowledge Base",
+      "title"    : "{{ kba.title | escape }}",
+      "category" : "{{ kba.category }}",
+      "tags"     : "{{ kba.tags | array_to_sentence_string }}",
+      "url"      : "{{ site.baseurl }}{{ kba.url }}",
+      "date"     : "{{ kba.date | date_to_long_string }}",
+      "image"    : "{{ kba.image }}"
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
 ]

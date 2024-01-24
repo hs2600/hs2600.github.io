@@ -1,0 +1,62 @@
+<div class="article col {% if forloop.index == 1 and page.url contains 'blog' %}col-12 article--first{% else %}col-4 col-d-6 col-t-12{% endif %}">
+  <div class="article__inner">
+    <div class="article__head">
+
+      {% if kba.video_embed %}
+      <div class="video-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+          <polygon points="40,30 65,50 40,70"></polygon>
+        </svg>
+      </div>
+      {% endif %}
+
+      {% if kba.image %}
+      <a href="{{ kba.url | prepend: site.baseurl }}" class="article__image" aria-hidden="true" tabindex="-1">
+        <img class="lazy" data-src="{{site.baseurl}}{{kba.image}}" alt="{{kba.title}}">
+      </a>
+      {% endif %}
+
+    </div>
+
+    <div class="article__content">
+
+      {% if kba.tags.size >= 1 %}
+      <div class="article__tags">
+        {% for tag in kba.tags %}
+          <span class="article__tag{% if kba.tags_color %} tag-color-js{% endif %}" {% if kba.tags_color %}data-accent="{{ kba.tags_color }}"{% endif %} {% if kba.tags_color %}style="color: {{ post.tags_color }};"{% endif %}>{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+      
+      <h2 class="article__title">
+        <a href="{{ kba.url | prepend: site.baseurl }}">{{ kba.title }}</a>
+      </h2>
+
+      <p class="article__excerpt">{% if kba.description %}{{ kba.description }}{% else %}{{ kba.content | strip_html | truncate: 160 }}{% endif %}</p>
+
+      <div class="article__meta">
+        {% assign author = site.authors | where: 'username', kba.author | first %}
+
+        {% if author %}
+        <a href="{{ author.url }}" class="article__author__image">
+          <img class="lazy" data-src="{{ author.image }}" alt="{{ author.name }}">
+        </a>
+        {% else %}
+        <a href="{{site.baseurl}}/about/" class="article__author__image">
+          <img class="lazy" data-src="{{site.data.settings.author.author__avatar}}" alt="{{site.data.settings.author.author__name}}">
+        </a>
+        {% endif %}
+
+        <div class="article__meta__bottom">
+          {% if author %}
+            <a class="article__author__name" href="{{ author.url }}">{{ author.name }}</a>
+          {% else %}
+            <a class="article__author__name" href="{{site.baseurl}}/about/">{{site.data.settings.author.author__name}}</a>
+          {% endif %}
+          <time class="article__date" datetime="{{ kba.date | date_to_xmlschema }}">{{ kba.date | date_to_string }}</time>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

@@ -13,6 +13,8 @@ menu__settings:
       url: '/'
     - title: 'Blog'
       url: '/blog/'
+    - title: 'KB'
+      url: '/kba/'
     - title: 'About'
       url: '/about/'
     - title: 'Tags'
@@ -21,8 +23,6 @@ menu__settings:
         title: 'Technology'
       - url: '/tags/?tag=security'
         title: 'Security'
-      - url: '/tags/?tag=kba'
-        title: 'Knowledge Base'
 
 #-------------------------------
 # Hero Settings
@@ -46,14 +46,14 @@ author:
 blog__settings:
   enable: true
   blog__title: Latest Posts
-  blog__description:
+  blog__description: 
 
 
 #-------------------------------
 # Tag Section Settings
 tag__settings:
   enable: true
-  tag: kba # To display the tag section, specify your favorite tag.
+  tag: technology # To display the tag section, specify your favorite tag.
 
 
 #-------------------------------
