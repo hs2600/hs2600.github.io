@@ -17,7 +17,7 @@
             https://formspree.io/f/{{site.data.settings.newsletter__settings.newsletter__email}}
             {% else %}#{% endif %}" method="POST">
             <label class="screen-reader-text" for="mce-EMAIL">Email address</label>
-            <input class="subscribe-email required email" id="mce-EMAIL" type="text" name="EMAIL" placeholder="{% if site.data.settings.newsletter__settings.newsletter__input__text %}{{ site.data.settings.newsletter__settings.newsletter__input__text }}{% else %}Email address{% endif %}">
+            <input class="subscribe-email required email" id="mce-EMAIL" type="text" name="EMAIL" required placeholder="{% if site.data.settings.newsletter__settings.newsletter__input__text %}{{ site.data.settings.newsletter__settings.newsletter__input__text }}{% else %}Email address{% endif %}">
             <button class="button button--primary button--big subscribe-button" id="membedded-subscribe" type="submit" name="subscribe">{{ site.data.settings.newsletter__settings.newsletter__button__text }}</button>
           </form>
         </div>
