@@ -4,10 +4,11 @@ title:  A list of pupular SaaS platforms
 date:   2024-01-21 00:00:00 -0800
 description:
 author: horacio 
-image:  '/images/premium_photo-1661277604122-4324e519402a.jpg'
+image:  '/images/photo-1602265585142-6b221b9b2c24.jpeg'
 tags:   [technology, saas, startups]
 tags_color: '#477690'
 ---
+
 As a SaaS business, it is important to maximise visibility and reach potential customers. One effective way to do this is by listing your product on SaaS directories. These directories serve as a platform to showcase your product, increase brand awareness, and attract new customers and boost SEO. 
 
 That’s why we have compiled this list of popular SaaS directories, to make it easier for you to reach your target audience and drive growth for your business. Whether you are just starting out or looking to expand your reach, this list is a great starting point for your SaaS marketing strategy.

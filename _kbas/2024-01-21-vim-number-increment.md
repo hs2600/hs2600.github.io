@@ -4,7 +4,7 @@ title: Vim number increment shortcut
 date:   2024-01-21 00:00:00 -0800
 description: VIM shortcut to increase a number
 author: horacio 
-image:  '/images/notes.avif'
+image:  '/images/photo-1.jpeg'
 tags:   [vim, linux, kba]
 tags_color: '#477690'
 ---
