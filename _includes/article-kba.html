@@ -1,4 +1,4 @@
-<div class="article col {% if forloop.index == 1 and page.url contains 'blog' %}col-12 article--first{% else %}col-4 col-d-6 col-t-12{% endif %}">
+<div class="article col {% if forloop.index < 2 and page.url contains 'kba' %}col-12 article--first{% else %}col-4 col-d-6 col-t-12{% endif %}">
   <div class="article__inner">
     <div class="article__head">
 
@@ -10,11 +10,14 @@
       </div>
       {% endif %}
 
-      {% if kba.image %}
       <a href="{{ kba.url | prepend: site.baseurl }}" class="article__image" aria-hidden="true" tabindex="-1">
+      {% if kba.image %}
         <img class="lazy" data-src="{{site.baseurl}}{{kba.image}}" alt="{{kba.title}}">
-      </a>
+      {% else %}
+        {% assign random = site.time | date: "%s%N" | plus: include.index | modulo: 31 %}
+        <img class="lazy" data-src="{{site.baseurl}}/images/photo-{{ random }}.jpeg" alt="{{kba.title}}">
       {% endif %}
+      </a>
 
     </div>
 
@@ -28,9 +31,9 @@
       </div>
       {% endif %}
       
-      <h2 class="article__title">
+      <h3 class="kba__title">
         <a href="{{ kba.url | prepend: site.baseurl }}">{{ kba.title }}</a>
-      </h2>
+      </h3>
 
       <p class="article__excerpt">{% if kba.description %}{{ kba.description }}{% else %}{{ kba.content | strip_html | truncate: 160 }}{% endif %}</p>
 
