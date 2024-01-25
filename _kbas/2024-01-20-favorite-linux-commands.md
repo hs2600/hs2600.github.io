@@ -5,7 +5,7 @@ date:   2024-01-20 00:00:00 -0800
 description:
 author: horacio 
 image:  '/images/photo-5.jpeg'
-tags:   [technology]
+tags:   [kba, linux]
 tags_color: '#477690'
 ---
 # My favorite linux commands
