@@ -70,9 +70,9 @@ h6 {
 
 blockquote {
     font-family: "Noto Serif","Times New Roman",Georgia,serif;
-    font-size: 1rem;
+    font-size: 13px; //1rem
     color: #777777;
-    font-style: italic;
+    font-style: normal;
     line-height: 1.6;
     background: #a7a7a71c;
     border-left: 10px solid #ccc;
@@ -88,7 +88,7 @@ blockquote {
     margin-top: 10px;
     font-size: 14px;
     font-weight: 700;
-    font-style: normal;
+    font-style: italic;
     color: var(--heading-font-color);
 
   }
