@@ -113,6 +113,7 @@ blockquote {
     background: none;
     border: none; 
     color: var(--heading-font-color);
+    word-break: inherit;
 
     &::before {
       content: '\201C';
