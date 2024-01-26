@@ -38,11 +38,13 @@ hashcat -a 3 passwords2.txt FLAG-HQNT-?d?d?d?d
 ```
 
  - ### Dictionary
+
 ```bash
 hashcat -a 0 hash1.txt rockyou.txt --force
 ```
 
  - ### Hybrid
+
 ```bash
 hashcat -a 6 example.dict ?d?d?d?d
 hashcat -a 0 -o cracked.txt hashes.txt /usr/share/wordlists/sqlmap.txt -O
@@ -162,3 +164,4 @@ apt-get install packagename
 conda config --set auto_activate_base false
 anaconda-navigator #(start anaconda gui)
 ```
+
