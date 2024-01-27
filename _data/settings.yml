@@ -13,6 +13,8 @@ menu__settings:
       url: '/'
     - title: 'Blog'
       url: '/blog/'
+    - title: 'Tutorials'
+      url: '/tutorial/'
     - title: 'KB'
       url: '/kba/'
     - title: 'About'

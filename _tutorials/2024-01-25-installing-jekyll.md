@@ -1,5 +1,5 @@
 ---
-layout: kba
+layout: post
 title:  Installing Jekyll
 date:   2024-01-25 00:00:00 -0800
 description: Install Jekyll - a simple, blog aware static site generator Ruby Gem.
@@ -103,3 +103,4 @@ There are a few different commands worth looking at for different purposes in Je
 
 For local development, you can also use `jekyll serve`, but we recommend the slightly longer `bundle exec jekyll serve`. Don’t worry much about the difference - this is just so the versions you installed locally are used (and not some other version), which might save you some troubleshooting.
 
+> [Checkout](/blog/welcome-to-jekyll) the welcome page.

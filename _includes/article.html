@@ -1,7 +1,6 @@
-<div class="article col {% if forloop.index == 1 and page.url contains 'blog' %}col-12 article--first{% else %}col-4 col-d-6 col-t-12{% endif %}">
+<div class="article col  {% if forloop.index == 1 and page.url contains include.collection %}col-12 article--first{% else %}col-4 col-d-6 col-t-12{% endif %}">
   <div class="article__inner">
     <div class="article__head">
-
       {% if post.video_embed %}
       <div class="video-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
@@ -23,7 +22,11 @@
       {% if post.tags.size >= 1 %}
       <div class="article__tags">
         {% for tag in post.tags %}
-          <a href="{{ site.baseurl }}/tags/?tag={{ tag | downcase | url_encode }}" class="article__tag{% if post.tags_color %} tag-color-js{% endif %}" {% if post.tags_color %}data-accent="{{ post.tags_color }}"{% endif %} {% if post.tags_color %}style="color: {{ post.tags_color }};"{% endif %}>{{ tag }}</a>
+            {% if include.collection == 'blog' or page.collection == 'pages' %}
+                <a href="{{ site.baseurl }}/tags/?tag={{ tag | downcase | url_encode }}" class="article__tag{% if post.tags_color %} tag-color-js{% endif %}" {% if post.tags_color %}data-accent="{{ post.tags_color }}"{% endif %} {% if post.tags_color %}style="color: {{ post.tags_color }};"{% endif %}>{{ tag }}</a>
+            {% else %}
+                <span class="article__tag{% if post.tags_color %} tag-color-js{% endif %}" {% if post.tags_color %}data-accent="{{ post.tags_color }}"{% endif %} {% if post.tags_color %}style="color: {{ post.tags_color }};"{% endif %}>{{ tag }}</span>
+            {% endif %}
         {% endfor %}
       </div>
       {% endif %}
