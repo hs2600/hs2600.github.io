@@ -4,7 +4,7 @@ title:  How to use Laravel Queues step-by-step tutorial
 date:   2024-01-26 00:00:00 -0800
 description: 
 author: horacio 
-image:  '/images/photo-9.jpeg'
+image:  '/images/laravel.jpg'
 tags:   [technology, laravel, tutorial]
 tags_color: '#477690'
 ---

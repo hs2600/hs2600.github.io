@@ -34,7 +34,8 @@ description:
   <div class="row">
 
     {% if site.tutorials.size > 0 %}
-      {% for post in site.tutorials %}
+    {% assign sorted = site.tutorials | sort: 'date' | reverse %}
+      {% for post in sorted %}
         {% include article.html index = forloop.index collection = 'tutorial' %}
       {% endfor %}
     {% endif %}

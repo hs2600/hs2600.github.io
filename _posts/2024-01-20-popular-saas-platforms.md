@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A list of pupular SaaS platforms
+title:  A list of popular SaaS platforms
 date:   2024-01-21 00:00:00 -0800
 description:
 author: horacio 
