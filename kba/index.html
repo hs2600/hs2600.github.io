@@ -34,9 +34,8 @@ description: Latest KB Articles & Resources
   <div class="row">
 
     {% if site.kbas.size > 0 %}
-     {% assign sorted = site.kbas | sort: 'date' | reverse %}
-      {% for kba in sorted %}
-        {% include article-kba.html index = forloop.index %}
+      {% for post in site.kbas %}
+        {% include article.html index = forloop.index collection = 'kba' %}
       {% endfor %}
     {% endif %}
 

@@ -1,5 +1,5 @@
 ---
-layout: kba 
+layout: post
 title: Vim number increment shortcut
 date:   2024-01-21 00:00:00 -0800
 description: VIM shortcut to increase a number

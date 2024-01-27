@@ -1,8 +1,15 @@
 ---
 layout: default
-title: Blog
-description: Tech enthusiast? Cybersecurity warrior? Full-stack dev wizard? This blog explores the cutting edge of technology, keeps you safe online, and helps you code like a pro.
+title: Tutorials
+description: 
 ---
+
+<style>
+.article__image {
+    padding-bottom: 50%;
+}
+
+</style>
 
 <!-- begin hero -->
 <section class="hero">
@@ -25,12 +32,12 @@ description: Tech enthusiast? Cybersecurity warrior? Full-stack dev wizard? This
 
 <div class="container animate">
   <div class="row">
-    {% if site.posts.size > 0 %}
-      {% for post in paginator.posts offset:0 %}
-        {% include article.html index = forloop.index collection = 'blog' %}
+
+    {% if site.tutorials.size > 0 %}
+      {% for post in site.tutorials %}
+        {% include article.html index = forloop.index collection = 'tutorial' %}
       {% endfor %}
     {% endif %}
+
   </div>
 </div>
-
-{% include pagination.html %}

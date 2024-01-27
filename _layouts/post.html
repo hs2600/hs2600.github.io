@@ -10,7 +10,11 @@ layout: default
       {% if page.tags.size >= 1 %}
         <div class="post__tags">
           {% for tag in page.tags %}
-            <a href="{{ site.baseurl }}/tags/?tag={{ tag | downcase | url_encode }}" class="post__tag{% if page.tags_color %} tag-color-js{% endif %}" {% if page.tags_color %}data-accent="{{ page.tags_color }}"{% endif %} {% if page.tags_color %}style="color: {{ page.tags_color }};"{% endif %}>{{ tag }}</a>
+            {% if page.collection == 'posts' %}
+                <a href="{{ site.baseurl }}/tags/?tag={{ tag | downcase | url_encode }}" class="post__tag{% if page.tags_color %} tag-color-js{% endif %}" {% if page.tags_color %}data-accent="{{ page.tags_color }}"{% endif %} {% if page.tags_color %}style="color: {{ page.tags_color }};"{% endif %}>{{ tag }}</a>
+            {% else %}
+                <span class="post__tag{% if page.tags_color %} tag-color-js{% endif %}" {% if page.tags_color %}data-accent="{{ page.tags_color }}"{% endif %} {% if page.tags_color %}style="color: {{ page.tags_color }};"{% endif %}>{{ tag }}</span>
+            {% endif %}
           {% endfor %}
         </div>
       {% endif %}
@@ -141,14 +145,16 @@ layout: default
   </div>
 </div>
 
-{% include related-posts.html %}
+{% include related-{{ page.collection}}.html %}
 
-{% if site.data.settings.disqus-identifier %}
-  <div class="container">
-    <div class="row">
-      <div class="col col-12">
-        {% include disqus-comments.html %} 
-      </div>
+<div class="container">
+    <div class="row" style="min-height: 40px;">
+        <div class="col col-12">
+        {% if page.collection == 'posts' %}
+            {% if site.data.settings.disqus-identifier %}
+                {% include disqus-comments.html %} 
+            {% endif %}
+        {% endif %}
+        </div>
     </div>
-  </div>
-{% endif %}
+</div>
