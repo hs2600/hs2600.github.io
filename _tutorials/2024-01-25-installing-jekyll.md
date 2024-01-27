@@ -5,7 +5,7 @@ date:   2024-01-25 00:00:00 -0800
 description: Install Jekyll - a simple, blog aware static site generator Ruby Gem.
 author: horacio 
 image:  '/images/jekyll.jpg'
-tags:   [technology, jekyll, kba]
+tags:   [technology, jekyll, tutorial]
 tags_color: '#477690'
 ---
 

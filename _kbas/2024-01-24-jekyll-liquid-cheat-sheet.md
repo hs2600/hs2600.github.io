@@ -5,7 +5,7 @@ date:   2024-01-24 00:00:00 -0800
 description:
 author: horacio 
 image:  '/images/jekyll.jpg'
-tags:   [tutorial, jekyll, liquid]
+tags:   [kba, jekyll, liquid]
 tags_color: '#477690'
 ---
 
