@@ -1,5 +1,5 @@
 ---
-layout: kba
+layout: post
 title:  
 date:   2024-01-24 00:00:00 -0800
 description:
@@ -92,7 +92,7 @@ This Liquid loop for Jekyll sorts a collection by date in reverse order
 ```
 [comment]: # (pass loop index)
 {% for kba in site.kbas %}
-  {% include article-kba.html index = forloop.index %}
+  {% include article.html index = forloop.index %}
 {% endfor %}
 
 [comment]: # (call index as `include.index`)

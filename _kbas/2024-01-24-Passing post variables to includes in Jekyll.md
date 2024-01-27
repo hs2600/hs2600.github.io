@@ -1,5 +1,5 @@
 ---
-layout: kba 
+layout: post
 title: Passing post variables to includes in Jekyll
 date:   2024-01-24 00:00:00 -0800
 description: How to pass liquid variables defined in your post or pages layout into your site includes.

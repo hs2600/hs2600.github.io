@@ -1,5 +1,5 @@
 ---
-layout: kba
+layout: post
 title: POP Tables 
 date:   2024-01-20 00:00:00 -0800
 author: horacio 
