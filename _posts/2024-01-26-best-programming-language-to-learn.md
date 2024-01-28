@@ -114,7 +114,7 @@ JavaScript is a real programming language, so those coming straight from HTML an
 
 **Popularity**
 
-Very popular, often going hand in hand with HTML and CSS. [#3](https://pypl.github.io/PYPL.html) in PYPL Popularity Index of Feb. 2021. [#7](https://www.tiobe.com/tiobe-index/) in TIOBE Index for Feb. 2021. [#5](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [58%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020.
+Very popular, often going hand in hand with HTML and CSS. [#3](https://pypl.github.io/PYPL.html) in PYPL Popularity Index of Feb. 2021. [#7](https://www.tiobe.com/tiobe-index) in TIOBE Index for Feb. 2021. [#5](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [58%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020.
 
 **Average Salary**
 
@@ -135,9 +135,9 @@ PHP logo
 
 However, PHP has come back into style since PHP 5.x with a swath of improvements to speed and structure. According to W3Techs, [79% of the websites they surveyed use PHP](https://w3techs.com/technologies/details/pl-php).
 
-One thing is clear—it’s a powerful way to code server-side applications, and compared to other scripting languages, it’s effortless to learn. Its popularity among new programmers and the plethora of open source projects like WordPress means there’s plenty of [learning resources](/blog/php-tutorials/) too.
+One thing is clear—it’s a powerful way to code server-side applications, and compared to other scripting languages, it’s effortless to learn. Its popularity among new programmers and the plethora of open source projects like WordPress means there’s plenty of [learning resources](/blog/php-tutorials) too.
 
-Dozens of popular PHP frameworks such as [Laravel](/blog/laravel-tutorial/) exist, which can make your job coding with PHP even easier. With the launch of PHP 8.0, PHP is trying to break away from being just a backend scripting language to being a general-purpose programming language.
+Dozens of popular PHP frameworks such as [Laravel](/blog/laravel-tutorial) exist, which can make your job coding with PHP even easier. With the launch of PHP 8.0, PHP is trying to break away from being just a backend scripting language to being a general-purpose programming language.
 
 **Platform**
 
@@ -149,7 +149,7 @@ Easy to learn, especially for beginners.
 
 **Popularity**
 
-[#6](https://pypl.github.io/PYPL.html) in PYPL Popularity Index of Feb. 2021. [#8](https://www.tiobe.com/tiobe-index/) in TIOBE Index for Feb. 2021. [#13](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [37%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020 (but dreaded by 63%!)
+[#6](https://pypl.github.io/PYPL.html) in PYPL Popularity Index of Feb. 2021. [#8](https://www.tiobe.com/tiobe-index) in TIOBE Index for Feb. 2021. [#13](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [37%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020 (but dreaded by 63%!)
 
 **Average Salary**
 
@@ -182,7 +182,7 @@ Moderately easy to learn for those with programming knowledge. It can get highly
 
 **Popularity**
 
-[#9](https://www.tiobe.com/tiobe-index/) in TIOBE Index for Feb. 2021. [#7](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [57%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020.
+[#9](https://www.tiobe.com/tiobe-index) in TIOBE Index for Feb. 2021. [#7](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [57%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020.
 
 **Average Salary**
 
@@ -215,7 +215,7 @@ Relatively difficult to learn, especially for beginners.
 
 **Popularity**
 
-[#5](https://pypl.github.io/PYPL.html) in PYPL Popularity Index of Feb. 2021. [#4](https://www.tiobe.com/tiobe-index/) in TIOBE Index for Feb. 2021. [#3](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [43%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020.
+[#5](https://pypl.github.io/PYPL.html) in PYPL Popularity Index of Feb. 2021. [#4](https://www.tiobe.com/tiobe-index) in TIOBE Index for Feb. 2021. [#3](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [43%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020.
 
 **Average Salary**
 
@@ -250,7 +250,7 @@ Moderately easy to learn.
 
 **Popularity**
 
-[#4](https://pypl.github.io/PYPL.html) in PYPL Popularity Index of Feb. 2021. [#5](https://www.tiobe.com/tiobe-index/) in TIOBE Index for Feb. 2021. [#6](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [60%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020.
+[#4](https://pypl.github.io/PYPL.html) in PYPL Popularity Index of Feb. 2021. [#5](https://www.tiobe.com/tiobe-index) in TIOBE Index for Feb. 2021. [#6](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [60%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020.
 
 **Average Salary**
 
@@ -283,7 +283,7 @@ Relatively easy to learn.
 
 **Popularity**
 
-[#9](https://pypl.github.io/PYPL.html) in PYPL Popularity Index of Feb. 2021. [#15](https://www.tiobe.com/tiobe-index/) in TIOBE Index for Feb. 2021. [#16](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [60%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020.
+[#9](https://pypl.github.io/PYPL.html) in PYPL Popularity Index of Feb. 2021. [#15](https://www.tiobe.com/tiobe-index) in TIOBE Index for Feb. 2021. [#16](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [60%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020.
 
 **Average Salary**
 
@@ -337,7 +337,7 @@ Rust logo
 
 Rust is an almost universally loved programming language. In many ways, it’s similar to C++. It’s designed to be robust and fast, and you can use it in various projects.
 
-Designed by Graydon Hoare at Mozilla Research, Rust was explicitly made to solve many [problems](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular/) that come with other languages. So if you’re struggling with older technologies like Java and C++, Rust might be the perfect successor.
+Designed by Graydon Hoare at Mozilla Research, Rust was explicitly made to solve many [problems](https://stackoverflow.blog/2020/01/20/what-is-rust-and-why-is-it-so-popular) that come with other languages. So if you’re struggling with older technologies like Java and C++, Rust might be the perfect successor.
 
 **Platform**
 
@@ -368,13 +368,13 @@ Python[](#python)
 
 Python logo
 
-Python’s surge of popularity seemed to come out of nowhere, but it’s taken over almost all development fields. Currently, it’s the second most popular coding language on [GitHub](/kba/what-is-github/) (after JavaScript). From powering server backend to machine learning software, [Python can do it all](/blog/scripting-languages/#3-python).
+Python’s surge of popularity seemed to come out of nowhere, but it’s taken over almost all development fields. Currently, it’s the second most popular coding language on [GitHub](/kba/what-is-github) (after JavaScript). From powering server backend to machine learning software, [Python can do it all](/blog/scripting-languages/#3-python).
 
 It has almost everything you could ask for in a programming language: versatility, speed, and efficiency. Plus, it’s super easy to learn.
 
 If potential and popularity alone are enough to get you motivated, Python is the one to choose. There’s no shortage of demand for it right now.
 
-If you want to find out more about how to learn Python, read our post on the best [Python tutorials](/blog/python-tutorials/).
+If you want to find out more about how to learn Python, read our post on the best [Python tutorials](/blog/python-tutorials).
 
 **Platform**
 
@@ -386,7 +386,7 @@ Easy to learn.
 
 **Popularity**
 
-Python has exploded in popularity in the past few years. [#1](https://pypl.github.io/PYPL.html) in PYPL Popularity Index of Feb. 2021. [#3](https://www.tiobe.com/tiobe-index/) in TIOBE Index for Feb. 2021. [#1](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [67%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020, and wanted by 30%, the most of any language.
+Python has exploded in popularity in the past few years. [#1](https://pypl.github.io/PYPL.html) in PYPL Popularity Index of Feb. 2021. [#3](https://www.tiobe.com/tiobe-index) in TIOBE Index for Feb. 2021. [#1](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [67%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020, and wanted by 30%, the most of any language.
 
 **Average Salary**
 
@@ -419,7 +419,7 @@ Extremely easy to learn.
 
 **Popularity**
 
-[#15](https://pypl.github.io/PYPL.html) in PYPL Popularity Index of Feb. 2021. [#14](https://www.tiobe.com/tiobe-index/) in TIOBE Index for Feb. 2021. [#14](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [43%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020.
+[#15](https://pypl.github.io/PYPL.html) in PYPL Popularity Index of Feb. 2021. [#14](https://www.tiobe.com/tiobe-index) in TIOBE Index for Feb. 2021. [#14](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [43%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020.
 
 **Average Salary**
 
@@ -427,7 +427,7 @@ Extremely easy to learn.
 
 **Advantages**
 
-Clean, efficient code. The language of choice for effortless web development (especially with the framework [Ruby on Rails](https://rubyonrails.org/)). A large and vibrant community.
+Clean, efficient code. The language of choice for effortless web development (especially with the framework [Ruby on Rails](https://rubyonrails.org)). A large and vibrant community.
 
 **Disadvantages**
 
@@ -452,7 +452,7 @@ Tricky to pick up.
 
 **Popularity**
 
-Despite being an older language that’s fallen out of favor over the years, Java remains a top contender for popularity. [#2](https://pypl.github.io/PYPL.html) in PYPL Popularity Index of Feb. 2021. [#2](https://www.tiobe.com/tiobe-index/) in TIOBE Index for Feb. 2021. [#2](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [44%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020.
+Despite being an older language that’s fallen out of favor over the years, Java remains a top contender for popularity. [#2](https://pypl.github.io/PYPL.html) in PYPL Popularity Index of Feb. 2021. [#2](https://www.tiobe.com/tiobe-index) in TIOBE Index for Feb. 2021. [#2](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [44%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020.
 
 **Average Salary**
 
@@ -518,7 +518,7 @@ Extremely easy to learn.
 
 **Popularity**
 
-[#13](https://pypl.github.io/PYPL.html) in PYPL Popularity Index of Feb. 2021. [#13](https://www.tiobe.com/tiobe-index/) in TIOBE Index for Feb. 2021. [#8](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [62%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020.
+[#13](https://pypl.github.io/PYPL.html) in PYPL Popularity Index of Feb. 2021. [#13](https://www.tiobe.com/tiobe-index) in TIOBE Index for Feb. 2021. [#8](https://spectrum.ieee.org/the-top-programming-languages-2023) on IEEE’s top languages of 2023. Loved by [62%](https://insights.stackoverflow.com/survey/2020#technology-most-loved-dreaded-and-wanted-languages-loved) of StackExchange developers in 2020.
 
 **Average Salary**
 
@@ -537,7 +537,7 @@ Which Programming Language Is the Best?[](#which-programming-language-is-the-bes
 
 There’s no clear answer on which coding language is best. Each has its pros and cons and shines in different situations. But when it comes to specific categories, there are a few clear winners. These are the best languages for:
 
-*   **Beginners:** For the absolute easiest languages to learn, even if you have no experience at all, start with HTML/CSS, Go, Ruby, [PHP](/blog/php-tutorials/), or Python.
+*   **Beginners:** For the absolute easiest languages to learn, even if you have no experience at all, start with HTML/CSS, Go, Ruby, [PHP](/blog/php-tutorials), or Python.
 *   **Web developers:** HTML, CSS, and JavaScript are a necessity for frontend developers. Backend developers should look into Ruby, Python, PHP, and Go. And, of course, SQL for database management.
 *   **Software developers:** C++ is undoubtedly the most powerful. But don’t overlook Rust, Python, Scala, or C#. It all depends on the software you’re building.
 *   ****Mobile developers:**** Swift is best for iOS, and Kotlin for Android. But general-purpose languages like C++ and Java can work well too.

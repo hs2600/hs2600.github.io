@@ -9,9 +9,9 @@ tags:   [technology]
 tags_color: '#477690'
 ---
 
-[PHP](https://www.php.net/) is an open-source, server-side scripting and [programming language](/blog/scripting-languages/) that’s primarily used for web development. The bulk of the core WordPress software is written in PHP, which makes PHP a very important language for the WordPress community. Some like to state that PHP as a programming language is dead but that’s not true.
+[PHP](https://www.php.net) is an open-source, server-side scripting and [programming language](/blog/scripting-languages) that’s primarily used for web development. The bulk of the core WordPress software is written in PHP, which makes PHP a very important language for the WordPress community. Some like to state that PHP as a programming language is dead but that’s not true.
 
-There are different versions of PHP that you can [install on your server](/tutorial/install-php/), with the newer PHP 8.0, 8.1, and 8.2 offering significant performance improvements over the previous versions. 
+There are different versions of PHP that you can [install on your server](/tutorial/install-php), with the newer PHP 8.0, 8.1, and 8.2 offering significant performance improvements over the previous versions. 
 
 In this post, we’ll explain more about what “server-side” means and how PHP functions. Then, we’ll move into some of the ways that PHP specifically applies to WordPress and WordPress sites.
 
@@ -52,7 +52,7 @@ PHP framework directory
 
 Additionally, PHP frameworks encourage refracturing of code and DRY development (Don’t Repeat Yourself). As a result, you’ll have a leaner codebase that’s easy to maintain. Plus, you don’t need to worry about maintaining the core framework yourself.
 
-What’s more, PHP frameworks offer a simple way to make your PHP-based applications more secure. Although you’ll still need to write secure code, a framework can reduce the chance of hacker exploits. Some frameworks also provide built-in data sanitization protection against [common PHP security threats](https://docs.php.earth/security/intro/) like SQL injections and cross-site scripting.
+What’s more, PHP frameworks offer a simple way to make your PHP-based applications more secure. Although you’ll still need to write secure code, a framework can reduce the chance of hacker exploits. Some frameworks also provide built-in data sanitization protection against [common PHP security threats](https://docs.php.earth/security/intro) like SQL injections and cross-site scripting.
 
 ### 3 Best PHP Frameworks[](#3-best-php-frameworks)
 
@@ -66,13 +66,13 @@ It’s also super easy to get started with Laravel. You don’t even need to ins
 
 #### 2\. Symfony[](#2-symfony)
 
-[Symfony](https://symfony.com/) functions as a PHP framework and as a collection of PHP components to build websites. It’s one of the most flexible options, enabling you to choose the exact components that you need for your project.
+[Symfony](https://symfony.com) functions as a PHP framework and as a collection of PHP components to build websites. It’s one of the most flexible options, enabling you to choose the exact components that you need for your project.
 
 Additionally, Symfony supports tons of databases, including Drizzle, MySQL, and Oracle. Better yet, Symfony is commercially backed by Sensio Labs, so you’ll find lots of support available (unlike other PHP frameworks).
 
 #### 3\. CodeIgniter[](#3-codeigniter)
 
-[CodeIgniter](https://codeigniter.com/) has very minimal configuration, so you can get it set up quickly. Like Symfony, you can add the components that you want. Therefore, you can easily build a light application with no bloat.
+[CodeIgniter](https://codeigniter.com) has very minimal configuration, so you can get it set up quickly. Like Symfony, you can add the components that you want. Therefore, you can easily build a light application with no bloat.
 
 What’s more, CodeIgniter is a scalable solution that helps protect you against security threats like cross-site scripting. Plus, you’ll find some performance-based features like caching to speed up your apps.
 

@@ -37,7 +37,7 @@ What is PHP?[](#what-is-php)
 *   It is run server-side rather than client-side, so it works in the backend rather than in the browser.
 *   It integrates well with HTML, making it highly suitable for web development.
 
-It’s also one of the easiest web scripting languages to [learn](/blog/php-tutorials/), making it a popular choice for beginners. But it’s also quite powerful and suitable for advanced website functions.
+It’s also one of the easiest web scripting languages to [learn](/blog/php-tutorials), making it a popular choice for beginners. But it’s also quite powerful and suitable for advanced website functions.
 
 Many websites and tools use PHP and its many extensions (.NET, Apache, and MySQL may sound familiar). 
 
@@ -52,7 +52,7 @@ PHP Prerequisites[](#php-prerequisites)
 
 Before installing PHP, you’ll need to make sure your server can handle it. Luckily, the requirements are fairly basic, and a lot of the software is likely already installed on your computer.
 
-If you’ve never created a server before, you should check out this [guide to set up a local server](https://www.maketecheasier.com/setup-local-web-server-all-platforms/) on multiple OSes. The exact specifics vary depending on your operating system, but you should know how to work with the command line and be ready to install new software.
+If you’ve never created a server before, you should check out this [guide to set up a local server](https://www.maketecheasier.com/setup-local-web-server-all-platforms) on multiple OSes. The exact specifics vary depending on your operating system, but you should know how to work with the command line and be ready to install new software.
 
 Whatever operating system you’re installing PHP on, you’ll need a web server to run it. You’ll also likely need to install a database like MySQL, so keep that in mind.
 
@@ -105,7 +105,7 @@ How to Install PHP on Linux[](#how-to-install-php-on-linux)
 
 Before starting, you should be familiar with the Terminal and how to operate Unix-like OSes in general. Generally, these command line codes should work on any Linux distribution that uses the normal syntax in the Terminal, but we’ve left some notes below for specific OSes.
 
-First, you should make sure your packages are up to date, so run this [Linux command](/blog/40-linux-commands/) in the Terminal.
+First, you should make sure your packages are up to date, so run this [Linux command](/blog/40-linux-commands) in the Terminal.
 
     sudo apt-get update && sudo apt-get upgrade
 
@@ -119,7 +119,7 @@ This will install the latest version of PHP along with several extensions. You c
 
     php –v
 
-What if you want to install a specific version of PHP, such as PHP 7.4? You’ll need to use a PPA, or Personal Package Archive, by [Ondřej Surý](https://launchpad.net/~ondrej/+archive/ubuntu/php/). This is a safe way to install older supported versions of PHP. Run these three commands one at a time:
+What if you want to install a specific version of PHP, such as PHP 7.4? You’ll need to use a PPA, or Personal Package Archive, by [Ondřej Surý](https://launchpad.net/~ondrej/+archive/ubuntu/php). This is a safe way to install older supported versions of PHP. Run these three commands one at a time:
 
     sudo apt install software-properties-common
     sudo add-apt-repository ppa:ondrej/php
@@ -179,7 +179,7 @@ How to Install PHP on Windows[](#how-to-install-php-on-windows)
 
 If you’re using a Windows system, unlike macOS and Linux, you don’t need to install PHP through the [command line](https://www.php.net/manual/en/install.windows.manual.php) (though it is an option if you’d prefer).
 
-An easy way to install PHP from here is to [enable IIS](https://www.howtogeek.com/112455/how-to-install-iis-8-on-windows-8/) and then use [WebPI](https://www.microsoft.com/web/downloads/platform.aspx) to install PHP. After launching WebPI, you can find it under the **Products** tab. Click **Add** on the version you want, then click **Install**.
+An easy way to install PHP from here is to [enable IIS](https://www.howtogeek.com/112455/how-to-install-iis-8-on-windows-8) and then use [WebPI](https://www.microsoft.com/web/downloads/platform.aspx) to install PHP. After launching WebPI, you can find it under the **Products** tab. Click **Add** on the version you want, then click **Install**.
 
 Enabling IIS on Windows
 
@@ -207,7 +207,7 @@ You may need to do [extra configuration](https://www.php.net/manual/en/install.m
 
 You can always check the PHP version with the `php –v` command to make sure PHP was installed correctly.
 
-If you do need to download PHP manually, then you should [install Homebrew](https://brew.sh/) and use this simple command:
+If you do need to download PHP manually, then you should [install Homebrew](https://brew.sh) and use this simple command:
 
     brew install php
 
@@ -218,14 +218,14 @@ Once you’ve got PHP up and running, it’s a good idea to think about extensio
 
 While it’s completely possible to code everything yourself without ever touching an extension, there’s no reason to do it all on your own when widely-used shortcuts exist to make your life easier.
 
-PHP already comes with dozens of built-in extensions, some of which you must enable manually, and others you can start using right away. You can also install PHP extensions through sites like [PECL](https://pecl.php.net/), which hosts hundreds of third-party packages.
+PHP already comes with dozens of built-in extensions, some of which you must enable manually, and others you can start using right away. You can also install PHP extensions through sites like [PECL](https://pecl.php.net), which hosts hundreds of third-party packages.
 
 The PHP manual offers [extension documentation](https://www.php.net/manual/en/extensions.php) for many of these as well, so you can get the hang of using them.
 
 Not sure where to start? Here are just a handful of a few popular PHP extensions:
 
 *   Apache: Apache is a widely used web server software recommended by WordPress due to its great compatibility with it and PHP. Apache comes bundled with PHP, so you don’t need to install it manually.
-*   [.NET](https://dotnet.microsoft.com/): .NET is a popular software framework that you can use to build web applications and more. It works with multiple languages, including PHP. You may also be interested in [PeachPie](https://www.peachpie.io/), which allows you to run PHP code in .NET.
+*   [.NET](https://dotnet.microsoft.com): .NET is a popular software framework that you can use to build web applications and more. It works with multiple languages, including PHP. You may also be interested in [PeachPie](https://www.peachpie.io), which allows you to run PHP code in .NET.
 *   MySQLi: A better version of the old MySQL extension, MySQLi enables you to work with MySQL database software. This one is a must-have to help you set up your database.
 
 Whenever you install an extension, you need to uncomment it. Just open up **php.ini** and remove the semicolon (**;**) in front of `extension=extensionname`.

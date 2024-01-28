@@ -111,7 +111,7 @@ li {
 ## Images
 
 ![Rom]({{site.baseurl}}/images/39.jpg#wide)
-*Photo by [Jairph](https://unsplash.com/photos/FC9J9L04xuM) on [Unsplash](https://unsplash.com/)*
+*Photo by [Jairph](https://unsplash.com/photos/FC9J9L04xuM) on [Unsplash](https://unsplash.com)*
 
 <div class="gallery-box">
   <div class="gallery">
@@ -121,7 +121,7 @@ li {
 </div>
 
 ![Italy]({{site.baseurl}}/images/23.jpg)
-*Photo by [Juliana Malta](https://unsplash.com/photos/tHXX4fl3-ms) on [Unsplash](https://unsplash.com/)*
+*Photo by [Juliana Malta](https://unsplash.com/photos/tHXX4fl3-ms) on [Unsplash](https://unsplash.com)*
 
 ***
 

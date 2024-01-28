@@ -187,5 +187,5 @@ PSTGSTUS (Posting Status):
 
 ---
 
-> Retrieved from [https://victoriayudin.com](https://victoriayudin.com/gp-tables/sop-tables/){:target="_blank"}
+> Retrieved from [https://victoriayudin.com](https://victoriayudin.com/gp-tables/sop-tables){:target="_blank"}
 

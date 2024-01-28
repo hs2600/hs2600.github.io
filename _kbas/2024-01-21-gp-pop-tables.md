@@ -87,7 +87,7 @@ POPTYPE (POP Receipt Type):
 8 – Intransit Transfer (thanks to Jesus M. Cruz Narvaez for this one)
 ```
 
-[Thanks to [Frank Hamelly](http://gp2themax.blogspot.com/){:target="_blank"} of GP2theMax for the complete list of POP Receipt Types, as these are not in the SDK.]
+[Thanks to [Frank Hamelly](http://gp2themax.blogspot.com){:target="_blank"} of GP2theMax for the complete list of POP Receipt Types, as these are not in the SDK.]
 
 DISTTYPE (Distribution Type):
 ```
@@ -182,5 +182,5 @@ PO Line Note ID Array Array in POP10110:
 
 ---
 
-> Retrieved from [https://victoriayudin.com](https://victoriayudin.com/gp-tables/pop-tables/){:target="_blank"}
+> Retrieved from [https://victoriayudin.com](https://victoriayudin.com/gp-tables/pop-tables){:target="_blank"}
 

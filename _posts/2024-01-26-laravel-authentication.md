@@ -32,7 +32,7 @@ Read on!
 An Intro to Laravel Authentication[](#an-intro-to-laravel-authentication)
 -------------------------------------------------------------------------
 
-[Laravel](/kba/what-is-laravel/) introduces modules that are made up of “guards” and “[providers](https://laravel.com/docs/9.x/providers).” Guards define user authentication for each request, and providers define user retrieval from persistent storage (e.g. MySQL database).
+[Laravel](/kba/what-is-laravel) introduces modules that are made up of “guards” and “[providers](https://laravel.com/docs/9.x/providers).” Guards define user authentication for each request, and providers define user retrieval from persistent storage (e.g. MySQL database).
 
 We define our authentication parameters in a file named `config/auth.php`. It includes several options to tweak and modify Laravel’s authentication behavior.
 
@@ -138,14 +138,14 @@ Providing a way to separate token generation from token verification gives vendo
 
 As the name suggests, it implies using at least two authentication factors, elevating the security it provides.
 
-Unlike [multi-factor authentication](/blog/multi-factor-authentication/) that involves two factors only, this method can involve two, three, four, and more…
+Unlike [multi-factor authentication](/blog/multi-factor-authentication) that involves two factors only, this method can involve two, three, four, and more…
 
 This method’s typical implementation involves using a password, after which the user is sent a verification code on their smartphone. Vendors implementing this method should look for false positives and network outages, which can become big problems while scaling up fast.
 
 How To Implement Laravel Authentication[](#how-to-implement-laravel-authentication)
 -----------------------------------------------------------------------------------
 
-This section will teach you multiple ways to authenticate your application’s users. Some libraries like Jetstream, Breeze, and Socialite have [free tutorials](/blog/laravel-tutorial/) on how to use them.
+This section will teach you multiple ways to authenticate your application’s users. Some libraries like Jetstream, Breeze, and Socialite have [free tutorials](/blog/laravel-tutorial) on how to use them.
 
 ### Manual Authentication[](#manual-authentication)
 
