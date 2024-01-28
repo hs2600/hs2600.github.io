@@ -67,13 +67,14 @@
               </a>
               {% endif %}
       
-              <div class="article__meta__bottom">
+                <div class="article__meta__bottom" style="display: block; font-size: 14px;">
                 {% if author %}
                   <a class="article__author__name" href="{{ author.url }}">{{ author.name }}</a>
                 {% else %}
                   <a class="article__author__name" href="{{site.baseurl}}/about/">{{site.data.settings.author.author__name}}</a>
                 {% endif %}
-                <time class="article__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+                &nbsp; <time class="article__date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time>
+                &nbsp; <a class="disqus-comment-count" href="{{ post.url | prepend: site.baseurl }}#disqus_thread">&nbsp;</a>
               </div>
             </div>
 
