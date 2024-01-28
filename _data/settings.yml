@@ -55,7 +55,7 @@ blog__settings:
 # Tag Section Settings
 tag__settings:
   enable: true
-  tag: technology # To display the tag section, specify your favorite tag.
+  tag: security # To display the tag section, specify your favorite tag.
 
 
 #-------------------------------
@@ -129,7 +129,7 @@ contact:
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: anvod-studio-test # Add your shortname for Disqus Comment. For example anvodstudio-demo
+disqus-identifier: santoyo # Add your shortname for Disqus Comment. For example anvodstudio-demo
 
 
 #-------------------------------

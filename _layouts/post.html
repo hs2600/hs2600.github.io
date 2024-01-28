@@ -118,6 +118,19 @@ layout: default
 </div>
 <!-- end post -->
 
+<!-- Disqus -->
+<div class="container">
+    <div class="row" style="min-height: 40px; margin-bottom: 30px;">
+        <div class="col col-12">
+        {% if page.collection == 'posts' %}
+            {% if site.data.settings.disqus-identifier %}
+                {% include disqus-comments.html %} 
+            {% endif %}
+        {% endif %}
+        </div>
+    </div>
+</div>
+
 <div class="container">
   <div class="card-author">
     <div class="card-author__media">
@@ -147,14 +160,4 @@ layout: default
 
 {% include related-{{ page.collection}}.html %}
 
-<div class="container">
-    <div class="row" style="min-height: 40px;">
-        <div class="col col-12">
-        {% if page.collection == 'posts' %}
-            {% if site.data.settings.disqus-identifier %}
-                {% include disqus-comments.html %} 
-            {% endif %}
-        {% endif %}
-        </div>
-    </div>
-</div>
+<div style="margin: 40px"></div>
