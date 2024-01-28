@@ -4,7 +4,7 @@
 
 #### Installing Ruby & Jekyll
 
-If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation/) and make sure your local environment (including Ruby) is setup correctly.
+If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation) and make sure your local environment (including Ruby) is setup correctly.
 
 * * *
 

@@ -254,7 +254,7 @@ You use this to make scripts executable, allowing you to run them directly by us
 
 Maybe the `./` notation isn’t a command itself, but it’s worth mentioning in this list. It lets your shell run an executable file with any interpreter installed in your system directly from the terminal. No more double-clicking a file in a graphical file manager!
 
-For instance, with this command, you can run a [Python script](/blog/python-object-oriented-programming/) or a program only available in .run format. When running an executable, make sure it has executable (x) permissions, which you can modify with the `chmod` command.
+For instance, with this command, you can run a [Python script](/blog/python-object-oriented-programming) or a program only available in .run format. When running an executable, make sure it has executable (x) permissions, which you can modify with the `chmod` command.
 
 Here’s a simple Python script and how we would run it with the `./` notation:
 
@@ -327,7 +327,7 @@ No matter which Linux distribution you’re using, it’s likely that you use pa
 
 You can access these package managers through the command line, and you’d use one or another depending on the distro your machine is running.
 
-The following examples will install [GIMP](https://www.gimp.org/), a free and open source software usually available in most package managers:
+The following examples will install [GIMP](https://www.gimp.org), a free and open source software usually available in most package managers:
 
 #### Debian-based (Ubuntu, Linux Mint)[](#debianbased-ubuntu-linux-mint)
 
@@ -419,7 +419,7 @@ Be careful while using it — you don’t want to mess up your user password!
 
 The `which` command outputs the full path of shell commands. If it can’t recognize the given command, it’ll throw an error.
 
-For example, we can use this to check the binary path for [Python](/blog/python-tutorials/) and the Brave web browser:
+For example, we can use this to check the binary path for [Python](/blog/python-tutorials) and the Brave web browser:
 
     which python
     
@@ -473,7 +473,7 @@ This one is complementary to the `tail` command. `head` outputs the first 10 lin
 
 ### 33\. **`grep`** Command[](#33-grep-command)
 
-Grep is one of the most powerful utilities for working with text files. It searches for lines that match a [regular expression](https://regex101.com/) and print them:
+Grep is one of the most powerful utilities for working with text files. It searches for lines that match a [regular expression](https://regex101.com) and print them:
 
     grep "linux" long.txt
 
@@ -570,7 +570,7 @@ To search for files that end with a **.py** (Python) extension, you can use the 
 
 `wget` (World Wide Web get) is a utility to retrieve content from the internet. It has one of the largest collections of flags out there.
 
-Here’s how you would download a Python file from a [GitHub](/kba/what-is-github/) repo:
+Here’s how you would download a Python file from a [GitHub](/kba/what-is-github) repo:
 
     wget https://example.com/test.py
 
@@ -766,9 +766,9 @@ There are thousands of commands (and new ones are being written daily). But don�
 
 It’s possible. You can find solid resources online to help you get started. But if you feel in need of a hand, here are some well-recommended courses:
 
-*   [Linux Mastery](https://www.udemy.com/course/linux-mastery/)
-*   [The Linux Command Line Bootcamp](https://www.udemy.com/course/the-linux-command-line-bootcamp/)
-*   [Learn The Linux Command Line](https://www.udemy.com/course/command-line/) (free)
+*   [Linux Mastery](https://www.udemy.com/course/linux-mastery)
+*   [The Linux Command Line Bootcamp](https://www.udemy.com/course/the-linux-command-line-bootcamp)
+*   [Learn The Linux Command Line](https://www.udemy.com/course/command-line) (free)
 
 Summary[](#summary)
 -------------------

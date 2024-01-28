@@ -11,7 +11,7 @@ tags_color: '#477690'
 
 Jekyll is a Ruby Gem that can be installed on most systems. It's a straightforward process on both Mac and Linux, and only slightly more involved on Windows. Either way, it won't take you long to get set up with Jekyll!
 
-See [Jekyll docs](https://jekyllrb.com/docs/){:target="_blank"} for more info
+See [Jekyll docs](https://jekyllrb.com/docs){:target="_blank"} for more info
 
 ## How to install Jekyll
 

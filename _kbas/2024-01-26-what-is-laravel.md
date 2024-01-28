@@ -30,7 +30,7 @@ What Is Laravel?[](#what-is-laravel)
 
 The simple answer to the question, “What is Laravel?” is straightforward: Laravel is a cross-platform PHP framework for building web applications.
 
-But truly understanding the benefits of Laravel and its uses requires a deeper dive. Laravel allows a developer to take advantage of a large library of pre-programmed functionality (such as [authentication](/blog/laravel-authentication/), routing, and HTML templating). Access to this library makes it simpler to build robust web applications quickly while minimizing the amount of coding necessary.
+But truly understanding the benefits of Laravel and its uses requires a deeper dive. Laravel allows a developer to take advantage of a large library of pre-programmed functionality (such as [authentication](/blog/laravel-authentication), routing, and HTML templating). Access to this library makes it simpler to build robust web applications quickly while minimizing the amount of coding necessary.
 
 Laravel offers a highly functional development environment, as well as intuitive and expressive command-line interfaces. In addition, Laravel [uses](https://blog.yellowant.com/orm-rethinking-data-as-objects-8ddaa43b1410) [object-relational mapping](https://blog.yellowant.com/orm-rethinking-data-as-objects-8ddaa43b1410) (ORM) for simpler data access and manipulation.
 
@@ -58,7 +58,7 @@ Many modern PHP frameworks are object-oriented. Because of this, it’s benefici
 
 PHP frameworks use a Model-View-Controller (MVC) architecture. For those unfamiliar with MVC architecture, the Model is the data for the application, along with all associated logic. A table of subscribers, for example, can be a Model. The View provides a point of interaction with a user, where data from the Model can be viewed and modified. The Controller is a conduit between the View and the Model. In other words, the Controller takes user requests, retrieves the requisite information from the Model, processes it, and returns it to the view.
 
-PHP applications, such as WordPress, have some known vulnerabilities. The [most notable examples](https://www.freecodecamp.org/news/php-security-vulnerabilities/) are code injection and SQL injection. Laravel includes features that help prevent SQL injection and other attacks.
+PHP applications, such as WordPress, have some known vulnerabilities. The [most notable examples](https://www.freecodecamp.org/news/php-security-vulnerabilities) are code injection and SQL injection. Laravel includes features that help prevent SQL injection and other attacks.
 
 However, developers should undertake additional efforts, such as penetration testing, to ensure the security of their applications. According to IT expert Barbara Ericson of [Cloud Defense](https://www.clouddefense.ai/blog/penetration-testing), web application security consists of both penetration testing and web application firewalls, which go hand-in-hand.
 
@@ -97,19 +97,19 @@ Laravel is highly scalable. With integrated support for fast, distributed cache 
 
 Laravel has a tremendous ecosystem supported by a large community of developers. Because Laravel is one of the most used PHP frameworks, the library of available Laravel applications and packages is substantial. Both official Laravel packages and third-party packages are readily available.
 
-Laravel’s official packages (many of which are discussed below) include authentication, server management, subscription billing, browser testing and automation, and more. Third-party packages are available on a number of sites, including [Packalyst](https://packalyst.com/) and [Laravel News](https://laravel-news.com/category/packages).
+Laravel’s official packages (many of which are discussed below) include authentication, server management, subscription billing, browser testing and automation, and more. Third-party packages are available on a number of sites, including [Packalyst](https://packalyst.com) and [Laravel News](https://laravel-news.com/category/packages).
 
-There is also a huge amount of information available from the Laravel developer community. Developers with questions are sure to find an answer by visiting one of the many Laravel forums, like [Laravel.io](https://laravel.io/), [The Laravel subreddit](https://www.reddit.com/r/laravel/), and [Laracasts](https://laracasts.com/).
+There is also a huge amount of information available from the Laravel developer community. Developers with questions are sure to find an answer by visiting one of the many Laravel forums, like [Laravel.io](https://laravel.io), [The Laravel subreddit](https://www.reddit.com/r/laravel), and [Laracasts](https://laracasts.com).
 
 ### Laravel Is Widely Used[](#laravel-is-widely-used)
 
 Many companies use Laravel to help build highly functional websites:
 
-[Vacations by Rail](https://www.vacationsbyrail.com/) is a train-travel planning site built using the Laravel PHP framework. It is also integrated with the booking engine of Softrip.
+[Vacations by Rail](https://www.vacationsbyrail.com) is a train-travel planning site built using the Laravel PHP framework. It is also integrated with the booking engine of Softrip.
 
-The [Setapp](https://setapp.com/) website of curated apps for Mac and iOS is also built using the Laravel PHP framework.
+The [Setapp](https://setapp.com) website of curated apps for Mac and iOS is also built using the Laravel PHP framework.
 
-[Restaurants.com](https://www.restaurants.com/)’s restaurant search application is very intuitive to use, thanks to the fact that it’s built using Laravel mobile app templates.
+[Restaurants.com](https://www.restaurants.com)’s restaurant search application is very intuitive to use, thanks to the fact that it’s built using Laravel mobile app templates.
 
 What Does Laravel Do?[](#what-does-laravel-do)
 ----------------------------------------------
@@ -122,7 +122,7 @@ Laravel provides straightforward and intuitive route handling, using simple name
 
 ### Security[](#security)
 
-Laravel includes a [number of security features](https://iwconnect.com/laravel-security-features/) including user authentication, user role authorizations, email verification, encryption services, password hashing, and password reset features.
+Laravel includes a [number of security features](https://iwconnect.com/laravel-security-features) including user authentication, user role authorizations, email verification, encryption services, password hashing, and password reset features.
 
 ### Migration[](#migration)
 
@@ -130,7 +130,7 @@ Laravel provides version control for application databases using migrations. Mig
 
 ### Templating[](#templating)
 
-Blade is Laravel’s PHP templating engine. PHP templating engines [help divide business logic](/kba/what-is-php/) from HTML templating, resulting in a code base that is more easily maintained. Many of the features of Laravel rely on Blade templates. Blade offers more functionality than other templating engines because Blade allows use of plain PHP code, which others do not.
+Blade is Laravel’s PHP templating engine. PHP templating engines [help divide business logic](/kba/what-is-php) from HTML templating, resulting in a code base that is more easily maintained. Many of the features of Laravel rely on Blade templates. Blade offers more functionality than other templating engines because Blade allows use of plain PHP code, which others do not.
 
 ### Sessions[](#sessions)
 
@@ -146,7 +146,7 @@ Laravel supports data caching to minimize application task processing times. Lar
 
 ### Error Handling[](#error-handling)
 
-Error handling is automatically configured upon starting a new Laravel project. Laravel applications can be [run in debug mode](https://pineco.de/debugging-in-laravel/), generating detailed error messages for all errors that occur.
+Error handling is automatically configured upon starting a new Laravel project. Laravel applications can be [run in debug mode](https://pineco.de/debugging-in-laravel), generating detailed error messages for all errors that occur.
 
 ### Testing[](#testing)
 
@@ -154,7 +154,7 @@ Laravel offers substantial testing figures out of the box. Laravel supports unit
 
 ### Storage and File Management[](#storage-and-file-management)
 
-Laravel uses the [Flysystem PHP package](https://flysystem.thephpleague.com/v2/docs/) to provide drivers for working with a variety of filesystems, from local filesystems to cloud-based storage such as Amazon S3. Laravel also provides for file transfer with SSH File Transfer Protocol (SFTP).
+Laravel uses the [Flysystem PHP package](https://flysystem.thephpleague.com/v2/docs) to provide drivers for working with a variety of filesystems, from local filesystems to cloud-based storage such as Amazon S3. Laravel also provides for file transfer with SSH File Transfer Protocol (SFTP).
 
 ### Email[](#email)
 
@@ -171,7 +171,7 @@ In order to best understand what Laravel can do, it is important to understand h
 
 A request enters a Laravel application via the public/index.php file, which loads the rest of the framework and retrieves an instance of the Laravel application. After retrieval of the application instance, the request is routed to the console kernel or HTTP kernel.
 
-Among other tasks, the kernel [defines a selection of bootstrappers](https://developpaper.com/interpretation-of-laravel-kernel-http-kernel/) that perform tasks that must be completed before request handling takes place, as well as defining any middleware that requests must pass through prior to handling. Among these pre-handling tasks is loading any service providers required for the application.
+Among other tasks, the kernel [defines a selection of bootstrappers](https://developpaper.com/interpretation-of-laravel-kernel-http-kernel) that perform tasks that must be completed before request handling takes place, as well as defining any middleware that requests must pass through prior to handling. Among these pre-handling tasks is loading any service providers required for the application.
 
 Once bootstrapping is complete and service providers have been registered, the request passes to the router, which then directs the request to a route or to a controller. In addition, the router runs any required route-specific middleware. After the request passes through all required middleware, execution of a route or controller method returns a response that passes back through the chain to the View.
 
@@ -214,23 +214,23 @@ Composer is a third-party application-level PHP dependency management tool. Comp
 
 ### Homestead[](#homestead)
 
-Laravel Homestead is a development environment allowing development on a virtual machine by providing a pre-packaged [Vagrant](https://www.vagrantup.com/) box. Homestead includes everything needed for Laravel application development, including PHP, MySQL, Nginx, Composer, Redis, and much more, so the developer need not install these packages on their local machine. Homestead does require the installation of Vagrant and either [VirtualBox](https://www.virtualbox.org/) or [Parallels](https://www.parallels.com/).
+Laravel Homestead is a development environment allowing development on a virtual machine by providing a pre-packaged [Vagrant](https://www.vagrantup.com) box. Homestead includes everything needed for Laravel application development, including PHP, MySQL, Nginx, Composer, Redis, and much more, so the developer need not install these packages on their local machine. Homestead does require the installation of Vagrant and either [VirtualBox](https://www.virtualbox.org) or [Parallels](https://www.parallels.com).
 
 ### Authentication Starter Kits[](#authentication-starter-kits)
 
-Laravel includes a number of packages to help get developers up and running quickly. Prior to diving in, you may wish to review some of the [many available resources for learning Laravel](/blog/laravel-tutorial/). Laravel includes a couple of starter kits to help the developer implement common functionality quickly.
+Laravel includes a number of packages to help get developers up and running quickly. Prior to diving in, you may wish to review some of the [many available resources for learning Laravel](/blog/laravel-tutorial). Laravel includes a couple of starter kits to help the developer implement common functionality quickly.
 
-Laravel Breeze is an authentication starter kit. It includes common authentication and user account features such as user registration, login, email verification, and password confirmation and reset. Breeze also includes a javascript frontend through [Vue](https://vuejs.org/). Breeze has a default view layer that uses Blade templates and Tailwind CSS.
+Laravel Breeze is an authentication starter kit. It includes common authentication and user account features such as user registration, login, email verification, and password confirmation and reset. Breeze also includes a javascript frontend through [Vue](https://vuejs.org). Breeze has a default view layer that uses Blade templates and Tailwind CSS.
 
 For more advanced authentication features, Laravel now offers Jetstream, first introduced in Version 8. In addition to the features found in Breeze, Jetstream also offers additional advanced features such as two-factor authentication, session management, API support via Laravel Sanctum, and optional team management.
 
-For developers that prefer to use their own authentication frontend, Laravel offers Fortify—an authentication backend that is frontend agnostic. Fortify is the [engine for the Jetstream authentication starter kit](https://programmingfields.com/create-auth-using-jetstream-and-intertia-js-in-laravel-8/) and includes all of the Laravel authentication features (e.g. user registration, login, email verification, two-factor authentication, etc.). Fortify is not the underlying engine for Laravel Breeze.
+For developers that prefer to use their own authentication frontend, Laravel offers Fortify—an authentication backend that is frontend agnostic. Fortify is the [engine for the Jetstream authentication starter kit](https://programmingfields.com/create-auth-using-jetstream-and-intertia-js-in-laravel-8) and includes all of the Laravel authentication features (e.g. user registration, login, email verification, two-factor authentication, etc.). Fortify is not the underlying engine for Laravel Breeze.
 
 Laravel also offers social media-based authentication (OAuth) through Laravel Socialite.
 
 For developers who want to deploy their applications with minimal server configuration or, indeed, want serverless deployment, Laravel offers Forge and Vapor. Forge allows for deployment through a variety of infrastructure providers with minimal configuration efforts. Vapor is a serverless deployment platform based on AWS.
 
-For those looking to take the next step, developers can deploy their Laravel applications through their own self-hosted website. This is because self-hosting your website will require you to [set up several defined databases](https://hostingcanada.org/how-to-host-your-own-website-from-home/) with a single PHP command (using the latest version) and SSH access to the server. Laravel offers both in one open-sourced PHP framework, and as an added bonus, it’s quite easy to install.
+For those looking to take the next step, developers can deploy their Laravel applications through their own self-hosted website. This is because self-hosting your website will require you to [set up several defined databases](https://hostingcanada.org/how-to-host-your-own-website-from-home) with a single PHP command (using the latest version) and SSH access to the server. Laravel offers both in one open-sourced PHP framework, and as an added bonus, it’s quite easy to install.
 
 What Else Can Laravel Do?[](#what-else-can-laravel-do)
 ------------------------------------------------------
@@ -241,24 +241,24 @@ The better question might be, “What _can’t_ Laravel do?” Thousands of pac
 
 Laravel Cashier provides an interface for subscription billing services from Stripe and Paddle. Cashier also provides advanced subscription functionality, such as coupons and cancellation grace periods.
 
-Cashier is the engine for Laravel Spark, [a billing management panel](https://spark.laravel.com/) that allows users to create and manage their subscriptions. Spark is also limited to Stripe and Paddle as payment providers; custom providers are not yet compatible with Spark. Spark does, however, allow the developer to choose their frontend.
+Cashier is the engine for Laravel Spark, [a billing management panel](https://spark.laravel.com) that allows users to create and manage their subscriptions. Spark is also limited to Stripe and Paddle as payment providers; custom providers are not yet compatible with Spark. Spark does, however, allow the developer to choose their frontend.
 
 ### Valet[](#valet)
 
 Laravel Valet is a macOS development environment focused on speed and minimal resource usage (around 7 MB of RAM). Valet is not intended to be a complete replacement for Sail or Homestead. Instead, it’s meant for users with specific needs and resource limitations.
 
-For more packages, see the Laravel website or [Packalyst](https://packalyst.com/).
+For more packages, see the Laravel website or [Packalyst](https://packalyst.com).
 
 Laravel Now[](#laravel-now)
 ---------------------------
 
-The [current version of Laravel is version 10](/blog/laravel-10/), initially released in February 2023. This version includes a number of new features and improvements. Some of the new features in version 8 include Laravel Jetstream, job batching (allows execution of a batch of jobs, followed by performance of defined actions), Dynamic Blade components (allows runtime component rendering based on a runtime value), and use of [Tailwind CSS](https://tailwindcss.com/) by default in the Laravel paginator, among others. Improvements were also made to rate limiting and maintenance mode.
+The [current version of Laravel is version 10](/blog/laravel-10), initially released in February 2023. This version includes a number of new features and improvements. Some of the new features in version 8 include Laravel Jetstream, job batching (allows execution of a batch of jobs, followed by performance of defined actions), Dynamic Blade components (allows runtime component rendering based on a runtime value), and use of [Tailwind CSS](https://tailwindcss.com) by default in the Laravel paginator, among others. Improvements were also made to rate limiting and maintenance mode.
 
 In the past, new Laravel releases happened every six months. However, this resulted in a lot of questions, comments, and confusion about Laravel’s new release process. With the release of Laravel 9 in February 2022, the framework has now moved to a 12-month major release cycle.
 
 Summary[](#summary)
 -------------------
 
-Developers seeking fast and simple web application development should [consider learning Laravel](/blog/laravel-tutorial/). Laravel provides an extensive and robust set of resources that simplifies the development process by eliminating the need to code many common tasks from scratch.
+Developers seeking fast and simple web application development should [consider learning Laravel](/blog/laravel-tutorial). Laravel provides an extensive and robust set of resources that simplifies the development process by eliminating the need to code many common tasks from scratch.
 
 Laravel also provides a secure virtual development environment and intuitive command-line interfaces. And because Laravel is simple to learn and has a strong support community and ecosystem, it’s a natural choice for many developers, be they beginners or experts with years of experience.

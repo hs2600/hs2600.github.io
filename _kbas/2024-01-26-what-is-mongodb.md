@@ -43,7 +43,7 @@ There is a range of NoSQL database types, but MongoDB stores data in JavaScript-
     }
 
   
-Although MongoDB has become synonymous with the JavaScript-based framework Node.js, official MongoDB [database drivers](https://www.mongodb.com/docs/drivers/) are available for most frameworks, languages, and runtimes, including [Node.js](https://www.mongodb.com/docs/drivers/node/current/), PHP, and Python. You can also opt for libraries such as [Mongoose](https://www.npmjs.com/package/mongoose) that offer a higher level of abstraction or object relational mapping (ORM) features.
+Although MongoDB has become synonymous with the JavaScript-based framework Node.js, official MongoDB [database drivers](https://www.mongodb.com/docs/drivers) are available for most frameworks, languages, and runtimes, including [Node.js](https://www.mongodb.com/docs/drivers/node/current), PHP, and Python. You can also opt for libraries such as [Mongoose](https://www.npmjs.com/package/mongoose) that offer a higher level of abstraction or object relational mapping (ORM) features.
 
 Unlike SQL tables, there are no structural limits on what you can store in MongoDB. Data schemas are not enforced: You can store whatever you like wherever you like. This makes MongoDB ideal for more organic — _or messy_ — data structures.
 
@@ -86,9 +86,9 @@ You have three options for using MongoDB on your local machine. We’ll walk you
 
 ### 1\. Use Docker (Recommended)[](#1-use-docker-recommended)
 
-[Docker](https://www.docker.com/) is a software management tool that can install, configure, and run MongoDB or any other application in minutes.
+[Docker](https://www.docker.com) is a software management tool that can install, configure, and run MongoDB or any other application in minutes.
 
-[Install Docker and Docker Compose](https://dockerwebdev.com/tutorials/install-docker/) then create a project folder with a single file named docker-compose.yml containing the following content (note that indentions are essential):
+[Install Docker and Docker Compose](https://dockerwebdev.com/tutorials/install-docker) then create a project folder with a single file named docker-compose.yml containing the following content (note that indentions are essential):
 
     version: '3'
     
@@ -129,7 +129,7 @@ Note that:
 *   Data is saved between restarts in a Docker volume named dbdata.
 *   The Adminer database client is also provided.
 
-You can use any MongoDB database client to connect to localhost:27017 using the ID “root” and password “pass”. Alternatively, you can access Adminer at [http://localhost:8080/](http://localhost:8080/) and log in with the following credentials:
+You can use any MongoDB database client to connect to localhost:27017 using the ID “root” and password “pass”. Alternatively, you can access Adminer at [http://localhost:8080/](http://localhost:8080) and log in with the following credentials:
 
 *   **System:** MongoDB (alpha)
 *   **Server:** host.docker.internal
@@ -179,11 +179,11 @@ MongoDB can be installed and configured on Linux, Windows, or Mac OS. Two editio
 1.  A commercial Enterprise Edition
 2.  An open source Community Edition (used in this tutorial)
 
-The [MongoDB installation page](https://www.mongodb.com/docs/manual/installation/) provides instructions for various operating systems. In general:
+The [MongoDB installation page](https://www.mongodb.com/docs/manual/installation) provides instructions for various operating systems. In general:
 
-*   Linux editions are installed using a package manager such as [apt on Ubuntu](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)
-*   [Mac OS editions are installed using brew](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/)
-*   [Windows editions are installed using a .msi installer](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows/)
+*   Linux editions are installed using a package manager such as [apt on Ubuntu](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu)
+*   [Mac OS editions are installed using brew](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x)
+*   [Windows editions are installed using a .msi installer](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-windows)
 
 Be sure to follow the instructions carefully so your installation is successful!
 
@@ -194,13 +194,13 @@ Now that your MongoDB database is installed, it’s time to learn how to manage 
 
 ### 1\. Install a MongoDB Client[](#1-install-a-mongodb-client)
 
-A MongoDB client application is required to administer databases. If you’re using a cloud or local installation, we recommend you [install the command line mongosh MongoDB Shell](https://www.mongodb.com/docs/mongodb-shell/install/).
+A MongoDB client application is required to administer databases. If you’re using a cloud or local installation, we recommend you [install the command line mongosh MongoDB Shell](https://www.mongodb.com/docs/mongodb-shell/install).
 
-[Adminer](https://www.adminer.org/) is a web-based database client which supports MongoDB, though it is currently limited to inspecting collections. Adminer is downloadable as a single PHP script, but it’s already set up if you use the [Docker installation](https://docs.google.com/document/d/13hLswY74cFDedN7DoUWbIshf6K7wRI4myCvKcpvNIZ0/edit#heading=h.jv0yfv8fhy7q).
+[Adminer](https://www.adminer.org) is a web-based database client which supports MongoDB, though it is currently limited to inspecting collections. Adminer is downloadable as a single PHP script, but it’s already set up if you use the [Docker installation](https://docs.google.com/document/d/13hLswY74cFDedN7DoUWbIshf6K7wRI4myCvKcpvNIZ0/edit#heading=h.jv0yfv8fhy7q).
 
 A GUI client application provides a better interface for updating and inspecting data. There are several options available, including the free and cross-platform [MongoDB Compass](https://www.mongodb.com/products/compass):
 
-[Studio 3T](https://studio3t.com/), another GUI contender, provides a commercial application that grants limited functionality for free:
+[Studio 3T](https://studio3t.com), another GUI contender, provides a commercial application that grants limited functionality for free:
 
 You can access your MongoDB database with one of these tools by using any of the following:
 
@@ -262,7 +262,7 @@ The result will be something like this:
 
 ### How To Insert Multiple Documents[](#how-to-insert-multiple-documents)
 
-You can insert multiple documents into a collection by passing an array to [insertMany()](https://www.mongodb.com/docs/manual/reference/method/db.collection.insertMany/). The following code creates additional person documents and a new company collection:
+You can insert multiple documents into a collection by passing an array to [insertMany()](https://www.mongodb.com/docs/manual/reference/method/db.collection.insertMany). The following code creates additional person documents and a new company collection:
 
     db.person.insertMany([
       {
@@ -326,7 +326,7 @@ MongoDB automatically assigns an \_id to every document in a collection. This is
 
 This is the document’s primary key. The 24-character hexadecimal value is guaranteed to be unique across all documents in the database, and it cannot be changed once inserted.
 
-MongoDB also provides a [getTimeStamp() function](https://www.mongodb.com/docs/manual/reference/method/ObjectId.getTimestamp/) so you can obtain the document’s creation date/time without having to explicitly set a value. Alternatively, you can define your own unique \_id value when a document is created.
+MongoDB also provides a [getTimeStamp() function](https://www.mongodb.com/docs/manual/reference/method/ObjectId.getTimestamp) so you can obtain the document’s creation date/time without having to explicitly set a value. Alternatively, you can define your own unique \_id value when a document is created.
 
 ### Data Denormalization[](#data-denormalization)
 
@@ -350,11 +350,11 @@ You can list all documents in a collection, such as person, by using an empty fi
 
     db.person.find({})
 
-The [count() method](https://www.mongodb.com/docs/manual/reference/command/count/) returns the number of documents (in our case, that number will be 7):
+The [count() method](https://www.mongodb.com/docs/manual/reference/command/count) returns the number of documents (in our case, that number will be 7):
 
     db.person.find({}).count();
 
-A [sort() method](https://www.mongodb.com/docs/manual/reference/operator/update/sort/) returns the documents in any order you prefer such as by name in reverse alphabetical order:
+A [sort() method](https://www.mongodb.com/docs/manual/reference/operator/update/sort) returns the documents in any order you prefer such as by name in reverse alphabetical order:
 
     db.person.find({}).sort({ name: -1 });
 
@@ -366,7 +366,7 @@ You can search for specific records by defining a query with one or more fields,
 
     db.person.find({ name: 'Claire' });
 
-[Logical operators](https://www.mongodb.com/docs/manual/reference/operator/query/) such as $and, $or, $not, $gt (greater than), $lt (less than), and $ne (not equal), are also supported, e.g. locate all person documents where the company is either “Alpha Inc” or “Beta Inc”:
+[Logical operators](https://www.mongodb.com/docs/manual/reference/operator/query) such as $and, $or, $not, $gt (greater than), $lt (less than), and $ne (not equal), are also supported, e.g. locate all person documents where the company is either “Alpha Inc” or “Beta Inc”:
 
     db.person.find({
       $or: [
@@ -394,7 +394,7 @@ The result:
       "name" : "Claire"
     }
 
-The [$elemMatch query](https://www.mongodb.com/docs/manual/reference/operator/query/elemMatch/) allows you to find items in an array, such as all documents where the telephone array has a work item. The same $elemMatch can be used in the projection to show the work number only:
+The [$elemMatch query](https://www.mongodb.com/docs/manual/reference/operator/query/elemMatch) allows you to find items in an array, such as all documents where the telephone array has a work item. The same $elemMatch can be used in the projection to show the work number only:
 
     db.person.find(
       {
@@ -427,7 +427,7 @@ Using Cursors in MongoDB[](#using-cursors-in-mongodb)
 
 Most database drivers allow the results from a query to be returned as an array or similar data structure. However, if that set contains thousands of documents, this could lead to memory issues.
 
-Like most SQL databases, MongoDB supports the concept of [cursors](https://www.mongodb.com/docs/manual/reference/method/js-cursor/). Cursors allow an application to read query results one at a time before proceeding to the next item or abandoning the search.
+Like most SQL databases, MongoDB supports the concept of [cursors](https://www.mongodb.com/docs/manual/reference/method/js-cursor). Cursors allow an application to read query results one at a time before proceeding to the next item or abandoning the search.
 
 Cursors can also be used from a MongoDB shell:
 
@@ -492,7 +492,7 @@ A text index allows you to create search-engine-like queries that can examine te
 
     db.person.createIndex( { "$**": "text" } );
 
-The [$text operator](https://www.mongodb.com/docs/manual/text-search/) allows you to search this index, such as finding all documents where “Gamma” is referenced:
+The [$text operator](https://www.mongodb.com/docs/manual/text-search) allows you to search this index, such as finding all documents where “Gamma” is referenced:
 
     db.person.find({ $text: { $search: 'Gamma' } });
 
@@ -502,9 +502,9 @@ Note that full text searches generally require five or more characters to return
 
 MongoDB provides several other specialized index types:
 
-*   [hashed index](https://www.mongodb.com/docs/manual/core/index-hashed/)
-*   [2d index](https://www.mongodb.com/docs/manual/core/2dsphere/) — points on a two-dimensional plane
-*   [2dsphere index](https://www.mongodb.com/docs/manual/core/2d/) — geometries on an Earth-like sphere
+*   [hashed index](https://www.mongodb.com/docs/manual/core/index-hashed)
+*   [2d index](https://www.mongodb.com/docs/manual/core/2dsphere) — points on a two-dimensional plane
+*   [2dsphere index](https://www.mongodb.com/docs/manual/core/2d) — geometries on an Earth-like sphere
 
 How To Manage MongoDB Indexes[](#how-to-manage-mongodb-indexes)
 ---------------------------------------------------------------
@@ -535,7 +535,7 @@ This returns an array of results such as:
 
 The “key” defines the field and order while “name” is a unique identifier for that index — such as “company\_1” for the index on the company field.
 
-The effectiveness of an index can be examined by adding an [.explain() method](https://www.mongodb.com/docs/manual/reference/method/db.collection.explain/) to any query, e.g.
+The effectiveness of an index can be examined by adding an [.explain() method](https://www.mongodb.com/docs/manual/reference/method/db.collection.explain) to any query, e.g.
 
     db.person.find({ name:'Claire' }).explain();
 
@@ -558,7 +558,7 @@ or using the index specification document:
 
     db.person.dropIndex({ name: 1 });
 
-The [dropIndexes() method](https://www.mongodb.com/docs/manual/reference/method/db.collection.dropIndexes/) allows you to drop more than one index in a single command.
+The [dropIndexes() method](https://www.mongodb.com/docs/manual/reference/method/db.collection.dropIndexes) allows you to drop more than one index in a single command.
 
 Using MongoDB Data Validation Schemas[](#using-mongodb-data-validation-schemas)
 -------------------------------------------------------------------------------
@@ -567,7 +567,7 @@ Unlike SQL, data definition schemas are not necessary in MongoDB. You can post a
 
 This provides considerable freedom. However, there may be times when you want to insist that rules are followed. For example, it should not be possible to insert a document into the person collection unless it contains a name.
 
-Validation rules can be specified using a [$jsonSchema object](https://www.mongodb.com/docs/manual/reference/operator/query/jsonSchema/) which defines an array of required items and the properties of each validated field. The person collection has already been created, but you can still define a schema which specifies that a name string is required:
+Validation rules can be specified using a [$jsonSchema object](https://www.mongodb.com/docs/manual/reference/operator/query/jsonSchema) which defines an array of required items and the properties of each validated field. The person collection has already been created, but you can still define a schema which specifies that a name string is required:
 
     db.runCommand({
       collMod: 'person',
@@ -600,7 +600,7 @@ Try inserting a person document without a name:
       }
     }
 
-Schemas can also be defined if you [create a collection](https://www.mongodb.com/docs/manual/reference/method/db.createCollection/) before it’s used. The following command implements the same rules as above:
+Schemas can also be defined if you [create a collection](https://www.mongodb.com/docs/manual/reference/method/db.createCollection) before it’s used. The following command implements the same rules as above:
 
     db.createCollection('person', {
       validator: {
@@ -645,7 +645,7 @@ This more complex example creates a user collection that validates that a name, 
 How To Update Existing Documents in MongoDB[](#how-to-update-existing-documents-in-mongodb)
 -------------------------------------------------------------------------------------------
 
-MongoDB offers several [update methods](https://www.mongodb.com/docs/manual/reference/update-methods/) including `updateOne()`, `updateMany()`, and `replaceOne()`. These are passed:
+MongoDB offers several [update methods](https://www.mongodb.com/docs/manual/reference/update-methods) including `updateOne()`, `updateMany()`, and `replaceOne()`. These are passed:
 
 *   A filter object which locates documents to update
 *   An update object — or an array of update objects — describing the data to change
@@ -677,7 +677,7 @@ You can run query commands to examine the data updates at any time.
 How To Delete Documents in MongoDB[](#how-to-delete-documents-in-mongodb)
 -------------------------------------------------------------------------
 
-The update example above used $unset to remove the work telephone number from the document with the name “Henry”. To remove a whole document, you can use one of several [deletion methods](https://www.mongodb.com/docs/manual/reference/delete-methods/) including `deleteOne()`, `deleteMany()`, and `remove()` (which can delete one or many).
+The update example above used $unset to remove the work telephone number from the document with the name “Henry”. To remove a whole document, you can use one of several [deletion methods](https://www.mongodb.com/docs/manual/reference/delete-methods) including `deleteOne()`, `deleteMany()`, and `remove()` (which can delete one or many).
 
 The newly created document for Ian can be deleted with an appropriate filter:
 
@@ -686,7 +686,7 @@ The newly created document for Ian can be deleted with an appropriate filter:
 Using Aggregation Operations in MongoDB[](#using-aggregation-operations-in-mongodb)
 -----------------------------------------------------------------------------------
 
-[Aggregation](https://www.mongodb.com/docs/manual/aggregation/) is powerful but can be difficult to comprehend. It defines a series — or _pipeline_ — of operations in an array. Each stage of that pipeline [performs an operation](https://www.mongodb.com/docs/manual/meta/aggregation-quick-reference/) such as filtering, grouping, calculating, or modifying a set of documents. A stage can also use SQL JOIN-like behavior with a [$lookup operation](https://www.mongodb.com/docs/manual/reference/operator/aggregation/lookup/). The resulting documents are passed to the next stage of the pipeline for further processing as necessary.
+[Aggregation](https://www.mongodb.com/docs/manual/aggregation) is powerful but can be difficult to comprehend. It defines a series — or _pipeline_ — of operations in an array. Each stage of that pipeline [performs an operation](https://www.mongodb.com/docs/manual/meta/aggregation-quick-reference) such as filtering, grouping, calculating, or modifying a set of documents. A stage can also use SQL JOIN-like behavior with a [$lookup operation](https://www.mongodb.com/docs/manual/reference/operator/aggregation/lookup). The resulting documents are passed to the next stage of the pipeline for further processing as necessary.
 
 Aggregation is best illustrated with an example. We will build a query step by step which returns the name, company, and work telephone number (if available) of anyone who works for an organization based in the US.
 
@@ -880,9 +880,9 @@ How To Run Bulk MongoDB Operations[](#how-to-run-bulk-mongodb-operations)
 
 By default, MongoDB can handle 1,000 concurrent operations. This is unlikely to be a problem while using mongosh, but applications can reach this limit if they make a series of data manipulations on individual records. Node.js applications are especially problematic because they can rapidly issue a series of asynchronous requests without having to wait until they’ve completed.
 
-To circumvent this issue, MongoDB provides a [bulk operations API](https://www.mongodb.com/docs/manual/reference/method/js-bulk/) which accepts any number of updates that can be executed in order or in any order.
+To circumvent this issue, MongoDB provides a [bulk operations API](https://www.mongodb.com/docs/manual/reference/method/js-bulk) which accepts any number of updates that can be executed in order or in any order.
 
-Here’s a pseudocode](/kba/what-is-pseudocode/) example in Node.js:
+Here’s a pseudocode](/kba/what-is-pseudocode) example in Node.js:
 
     // reference the mycollection collection
     const bulk = db.collection('mycollection').initializeUnorderedBulkOp();

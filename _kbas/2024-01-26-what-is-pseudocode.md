@@ -163,7 +163,7 @@ You can see some of these constructs used in the pseudocode examples we’ll wor
 
 ### Pseudocode Best Practices[](#pseudocode-best-practices)
 
-As we mentioned earlier, there is no strict syntax for writing pseudocode, since it’s not an actual [programming language](/blog/best-programming-language-to-learn/).
+As we mentioned earlier, there is no strict syntax for writing pseudocode, since it’s not an actual [programming language](/blog/best-programming-language-to-learn).
 
 That said, here are a few general guidelines that can help you write clear, effective pseudocode each time:
 
@@ -203,7 +203,7 @@ Our pseudocode logic follows these steps:
 6.  Display the final sum obtained from adding all the numbers together.
 7.  End the function.
 
-Now that we know the logic of our function, we can translate this pseudocode into any other language or framework. Let’s see what it might look like translated into [PHP](/kba/what-is-php/):
+Now that we know the logic of our function, we can translate this pseudocode into any other language or framework. Let’s see what it might look like translated into [PHP](/kba/what-is-php):
 
     function findTotal($listOfNumbers) {
         $sum = 0;
@@ -236,7 +236,7 @@ Our pseudocode logic follows these steps:
 5.  For any other time, show the message “Good evening!”
 6.  End the function.
 
-Translated into [Node.js](/kba/what-is-node-js/), it might look like this:
+Translated into [Node.js](/kba/what-is-node-js), it might look like this:
 
     function timedGreeting() {
         const userTime = new Date();

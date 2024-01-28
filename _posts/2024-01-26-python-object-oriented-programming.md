@@ -11,7 +11,7 @@ tags_color: '#477690'
 
 Programming is an art. And as in art, selecting the proper brushes and paints is essential to produce the best works. Python Object-Oriented Programming is one such skill.
 
-Choosing [the right programming language](/blog/best-programming-language-to-learn/) is a crucial part of any project, and it can lead either to a fluid and enjoyable development or a complete nightmare. Hence, it would be best if you used the best-fit language for your use case.
+Choosing [the right programming language](/blog/best-programming-language-to-learn) is a crucial part of any project, and it can lead either to a fluid and enjoyable development or a complete nightmare. Hence, it would be best if you used the best-fit language for your use case.
 
 That’s the primary reason to learn object-oriented programming in Python, which is also one of the most popular programming languages.
 
@@ -72,7 +72,7 @@ Before heading into object-oriented programming, we strongly recommend you have 
 
 *   **Variable:** Symbolic name that points to a specific object (we’ll see what **objects** mean through the article).
 
-*   **Arithmetic operators:** Addition (+), subtraction (-), multiplication (\*), division (/), integer division (//), modulo (%).
+*   **Arithmetic operators:** Addition (+), subtraction (-), multiplication (\*), division (), integer division (/), modulo (%).
 
 *   **Built-in data types:** Numeric (integers, floats, complex), Sequences (strings, lists, tuples), Boolean (True, False), Dictionaries, and Sets.
 
@@ -724,7 +724,7 @@ When you’ve completed the challenge, you can send a pull request to the GitHub
 Summary[](#summary)
 -------------------
 
-Object-oriented programming is a paradigm in which we solve problems by thinking of them as **objects**. If you understand Python OOP, you can also apply it easily in languages like [Java](/blog/best-programming-language-to-learn/#java), [PHP](/kba/what-is-php/), Javascript, and [C#](/blog/best-programming-language-to-learn/#c-1).
+Object-oriented programming is a paradigm in which we solve problems by thinking of them as **objects**. If you understand Python OOP, you can also apply it easily in languages like [Java](/blog/best-programming-language-to-learn/#java), [PHP](/kba/what-is-php), Javascript, and [C#](/blog/best-programming-language-to-learn/#c-1).
 
 In this article, you’ve learned about:
 
@@ -739,4 +739,4 @@ In this article, you’ve learned about:
 
 Now it’s over to you!
 
-If you liked this guide, check out our post on [Python Tutorials](/blog/python-tutorials/).
+If you liked this guide, check out our post on [Python Tutorials](/blog/python-tutorials).

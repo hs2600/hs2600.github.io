@@ -9,7 +9,7 @@ tags:   [technology]
 tags_color: '#477690'
 ---
 
-Having a strong and efficient framework is important when working in web development. Laravel is an elegant and powerful [PHP](/kba/what-is-php/) web application framework that simplifies the development process while offering a range of key features and functionality.
+Having a strong and efficient framework is important when working in web development. Laravel is an elegant and powerful [PHP](/kba/what-is-php) web application framework that simplifies the development process while offering a range of key features and functionality.
 
 But if you’re new to the framework or don’t know how to use it yet, don’t worry! This guide will help you get up and running with Laravel in no time.
 
@@ -31,7 +31,7 @@ But first, let’s talk about what Laravel is, why it’s useful, and who can ma
 What Is Laravel?[](#what-is-laravel)
 ------------------------------------
 
-[Laravel](https://laravel.com/) is a powerful and elegant PHP web application framework that streamlines web application development through an MVC (Model-View-Controller) architecture. Created by [Taylor Otwell](https://www.w3schools.in/laravel/history), Laravel has gained immense popularity due to its simplicity and ease of use, making it a top choice for web developers worldwide.
+[Laravel](https://laravel.com) is a powerful and elegant PHP web application framework that streamlines web application development through an MVC (Model-View-Controller) architecture. Created by [Taylor Otwell](https://www.w3schools.in/laravel/history), Laravel has gained immense popularity due to its simplicity and ease of use, making it a top choice for web developers worldwide.
 
 ### Key Features and Functionality[](#key-features-and-functionality)
 
@@ -39,7 +39,7 @@ Some of the key features and functionality offered by Laravel include:
 
 #### Eloquent ORM For Database Interactions[](#eloquent-orm-for-database-interactions)
 
-Laravel’s [Object-Relational Mapping](https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools/) (ORM) allows for smooth and intuitive interactions with your database, making it easy to perform CRUD (Create, Read, Update, Delete) operations and manage relationships between tables.
+Laravel’s [Object-Relational Mapping](https://www.freecodecamp.org/news/what-is-an-orm-the-meaning-of-object-relational-mapping-database-tools) (ORM) allows for smooth and intuitive interactions with your database, making it easy to perform CRUD (Create, Read, Update, Delete) operations and manage relationships between tables.
 
 #### Blade Templating Engine[](#blade-templating-engine)
 
@@ -51,14 +51,14 @@ Laravel’s Artisan command-line tool offers a range of helpful commands for com
 
 #### Built-in Support For Tasks Scheduling and Authentication[](#builtin-support-for-tasks-scheduling-and-authentication)
 
-Laravel offers built-in support for task scheduling, making it easy to automate tasks like sending emails or cleaning up old data. Additionally, Laravel’s [authentication system](/blog/laravel-authentication/) simplifies the process of adding secure user authentication to your web applications.
+Laravel offers built-in support for task scheduling, making it easy to automate tasks like sending emails or cleaning up old data. Additionally, Laravel’s [authentication system](/blog/laravel-authentication) simplifies the process of adding secure user authentication to your web applications.
 
 All of this is great to know but exactly who can make the best use of Laravel? Let’s explore that next.
 
 Who Uses Laravel?[](#who-uses-laravel)
 --------------------------------------
 
-Laravel is a popular choice among various types of users, each of whom finds different benefits in using this powerful [PHP framework](/kba/what-is-laravel/). Some of the key user groups include:
+Laravel is a popular choice among various types of users, each of whom finds different benefits in using this powerful [PHP framework](/kba/what-is-laravel). Some of the key user groups include:
 
 *   **Startups**: For startups, Laravel offers a rapid development process, which helps bring their ideas to life quickly and efficiently. The framework’s built-in tools and libraries save precious time and resources during the initial stages of a project.
 *   **Established companies**: Laravel’s scalability and maintainability make it an attractive choice for established companies looking to build or upgrade their web applications. The framework’s strong community support ensures businesses can rely on Laravel for long-term projects.
@@ -69,23 +69,23 @@ Now, here are some examples of companies that use Laravel in their projects:
 
 ### Bankrate[](#bankrate)
 
-[Bankrate](https://www.bankrate.com/) is a leading financial services company that uses Laravel to build and maintain its online applications. The framework helps Bankrate manage complex data structures and speed up development cycles.
+[Bankrate](https://www.bankrate.com) is a leading financial services company that uses Laravel to build and maintain its online applications. The framework helps Bankrate manage complex data structures and speed up development cycles.
 
 ### The New York Times[](#the-new-york-times)
 
-The [New York Times](https://www.nytimes.com/) uses Laravel for its internal web applications, helping the company to build and maintain complex web applications quickly and effectively.
+The [New York Times](https://www.nytimes.com) uses Laravel for its internal web applications, helping the company to build and maintain complex web applications quickly and effectively.
 
 ### St Jude Children’s Research Hospital[](#st-jude-childrens-research-hospital)
 
-[St Jude Children’s Research Hospital](https://www.stjude.org/) uses Laravel to power its online donation platform and other web applications. The framework helps the hospital efficiently manage large amounts of data and ensure secure user authentication.
+[St Jude Children’s Research Hospital](https://www.stjude.org) uses Laravel to power its online donation platform and other web applications. The framework helps the hospital efficiently manage large amounts of data and ensure secure user authentication.
 
 ### Geocodio[](#geocodio)
 
-[Geocodio](https://www.geocod.io/) is a geocoding service that converts addresses to latitude and longitude coordinates and vice versa. Laravel powers Geocodio’s web application, allowing it to provide its customers a reliable and efficient geocoding service.
+[Geocodio](https://www.geocod.io) is a geocoding service that converts addresses to latitude and longitude coordinates and vice versa. Laravel powers Geocodio’s web application, allowing it to provide its customers a reliable and efficient geocoding service.
 
 ### October CMS[](#october-cms)
 
-[October CMS](https://octobercms.com/) is a free, open-source content management system (CMS) built on top of Laravel. By leveraging the power and flexibility of the Laravel framework, October CMS provides a user-friendly and customizable solution for managing website content.
+[October CMS](https://octobercms.com) is a free, open-source content management system (CMS) built on top of Laravel. By leveraging the power and flexibility of the Laravel framework, October CMS provides a user-friendly and customizable solution for managing website content.
 
 As you can see, Laravel is a powerful framework used by companies of all sizes, from startups to large enterprises. But you still might not be sure about the benefits this framework offers to developers. Let’s explore that now.
 
@@ -135,7 +135,7 @@ Ensure your system meets the following requirements:
 
 When choosing a version of Laravel, consider the following:
 
-*   **Stable vs. latest versions**: Choose based on project needs. [Stable versions](/blog/laravel-10/) offer reliability, while the latest versions may include new features and improvements.
+*   **Stable vs. latest versions**: Choose based on project needs. [Stable versions](/blog/laravel-10) offer reliability, while the latest versions may include new features and improvements.
 *   **Importance of checking compatibility**: Ensure smooth integration with other libraries and PHP versions by verifying that your chosen version of Laravel is compatible with your project’s dependencies.
 
 How To Install Laravel[](#how-to-install-laravel)
@@ -172,7 +172,7 @@ Once installed, launch the **XAMPP Control Panel** and start the Apache and MySQ
 
 Composer is a dependency management tool for PHP that is required to install Laravel. To install Composer on Windows, follow these steps:
 
-Visit the [Composer download page](https://getcomposer.org/download/) and download the **Composer-Setup.exe** file.
+Visit the [Composer download page](https://getcomposer.org/download) and download the **Composer-Setup.exe** file.
 
 Run the **Composer-Setup.exe** file and follow the on-screen instructions.
 
@@ -239,7 +239,7 @@ To install Laravel on macOS, follow these detailed steps:
 
 ### 1\. Install Homebrew[](#mac-1)
 
-[Homebrew](https://brew.sh/) is a package manager for macOS that simplifies the installation of software. To install Homebrew, open the Terminal and run the following command:
+[Homebrew](https://brew.sh) is a package manager for macOS that simplifies the installation of software. To install Homebrew, open the Terminal and run the following command:
 
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -403,4 +403,4 @@ Summary[](#summary)
 
 In this article, we’ve covered the process of installing Laravel on Windows, macOS, and Linux. Now that you have successfully installed Laravel on your chosen operating system, you’re ready to start building powerful and elegant web applications using this popular PHP framework.
 
-As you dive deeper into Laravel, be sure to explore the wealth of resources available to help you learn and get the most out of this powerful tool. The [Laravel community](https://laracasts.com/) is known for its strong support and [comprehensive documentation](https://laravel.com/docs/10.x), so don’t hesitate to reach out if you need assistance.
+As you dive deeper into Laravel, be sure to explore the wealth of resources available to help you learn and get the most out of this powerful tool. The [Laravel community](https://laracasts.com) is known for its strong support and [comprehensive documentation](https://laravel.com/docs/10.x), so don’t hesitate to reach out if you need assistance.

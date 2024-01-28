@@ -30,7 +30,7 @@ There are many reasons why you might want to learn Laravel, so we’ll start wit
 
 ### 1\. Rapid Development[](#1-rapid-development)
 
-[Laravel](https://laravel.com/) is an open source PHP framework for web application development, based on the MVC (Model-View-Controller) architectural pattern. Its expressive and straightforward syntax speeds up development and results in a clean and maintainable codebase and scalable applications.
+[Laravel](https://laravel.com) is an open source PHP framework for web application development, based on the MVC (Model-View-Controller) architectural pattern. Its expressive and straightforward syntax speeds up development and results in a clean and maintainable codebase and scalable applications.
 
 ### 2\. High Popularity[](#2-high-popularity)
 
@@ -38,23 +38,23 @@ There are many reasons why you might want to learn Laravel, so we’ll start wit
 
 ### 3\. Huge Ecosystem[](#3-huge-ecosystem)
 
-Thanks to its popularity, Laravel has a massive ecosystem of both official and third-party packages that you can add to your own application. The official packages include server management tools and platforms, developer environments, monitoring and testing tools, an administration panel, and more (see them on [Laravel’s homepage](https://laravel.com/) under the ‘Ecosystem’ menu).
+Thanks to its popularity, Laravel has a massive ecosystem of both official and third-party packages that you can add to your own application. The official packages include server management tools and platforms, developer environments, monitoring and testing tools, an administration panel, and more (see them on [Laravel’s homepage](https://laravel.com) under the ‘Ecosystem’ menu).
 
 If you want to add functionality that doesn’t yet exist, you can also [develop your own Laravel package](https://laravel.com/docs/8.x/packages).
 
 ### 4\. Active Community[](#4-active-community)
 
-There’s a huge community around Laravel that you can find on [Laravel.io](https://laravel.io/), [Laracasts Discuss](https://laracasts.com/discuss), [LaraChat](https://larachat.co/), [Discord](https://discord.com/invite/KxwQuKb), [Reddit](https://www.reddit.com/r/laravel/), and other cool places. Laravel also has an official conference called [Laracon](https://laracon.net/) that takes place every year on three continents (America, [Europe](https://laracon.eu/), [Australia](https://laracon.com.au/)).
+There’s a huge community around Laravel that you can find on [Laravel.io](https://laravel.io), [Laracasts Discuss](https://laracasts.com/discuss), [LaraChat](https://larachat.co), [Discord](https://discord.com/invite/KxwQuKb), [Reddit](https://www.reddit.com/r/laravel), and other cool places. Laravel also has an official conference called [Laracon](https://laracon.net) that takes place every year on three continents (America, [Europe](https://laracon.eu), [Australia](https://laracon.com.au)).
 
 ### 5\. Strong Job Market[](#5-strong-job-market)
 
-Laravel development is a highly in-demand skill and job prospects are excellent. It has an official job board called [Larajobs](https://larajobs.com/) where the most common job titles are ‘Laravel Developer’, ‘Backend Laravel Developer’, ‘Full-Stack PHP Developer‘ (Laravel is frequently paired with Vue.js on the frontend), and ‘TALL Stack Developer’ (TALL stands for [Tailwind CSS](https://tailwindcss.com/), [Alpine.js](https://github.com/alpinejs/alpine), Laravel, and [Livewire](https://laravel-livewire.com/)).
+Laravel development is a highly in-demand skill and job prospects are excellent. It has an official job board called [Larajobs](https://larajobs.com) where the most common job titles are ‘Laravel Developer’, ‘Backend Laravel Developer’, ‘Full-Stack PHP Developer‘ (Laravel is frequently paired with Vue.js on the frontend), and ‘TALL Stack Developer’ (TALL stands for [Tailwind CSS](https://tailwindcss.com), [Alpine.js](https://github.com/alpinejs/alpine), Laravel, and [Livewire](https://laravel-livewire.com)).
 
 Besides Larajobs, you can find multitudes of Laravel jobs on other job sites such as Monster, Indeed, and LinkedIn, and remote Laravel jobs are also available at [RemoteOK](https://remoteok.io/remote-laravel-jobs), [We Work Remotely](https://weworkremotely.com/remote-jobs/search?utf8=%E2%9C%93&term=laravel),  and other places.
 
 ### 6\. Promising Business Opportunities[](#6-promising-business-opportunities)
 
-If you don’t want to work for someone else but build your own business, Laravel can also be an excellent solution for you. There are already many successful businesses built on Laravel, such as [OctoberCMS](https://octobercms.com/), [Mailcoach](https://mailcoach.app/), [Monica CRM](https://www.monicahq.com/), [Invoice Ninja](https://www.invoiceninja.com/), and [CodeCourse](https://codecourse.com/) (see below in this article, among paid Laravel tutorials), to just name a few.
+If you don’t want to work for someone else but build your own business, Laravel can also be an excellent solution for you. There are already many successful businesses built on Laravel, such as [OctoberCMS](https://octobercms.com), [Mailcoach](https://mailcoach.app), [Monica CRM](https://www.monicahq.com), [Invoice Ninja](https://www.invoiceninja.com), and [CodeCourse](https://codecourse.com) (see below in this article, among paid Laravel tutorials), to just name a few.
 
 With Laravel as a foundation and using best practices and high-performing PHP hosting, your app will scale in production without any problems.
 
@@ -65,7 +65,7 @@ To get started with learning Laravel development, you’ll need some pre-existin
 
 ### Prior Knowledge[](#prior-knowledge)
 
-You’ll need to safely use PHP, especially object-oriented PHP. Knowing how to use the command line and the [Composer](https://getcomposer.org/) package manager is also important — these two topics are usually covered by [beginner-level PHP tutorials](/blog/php-tutorials/).
+You’ll need to safely use PHP, especially object-oriented PHP. Knowing how to use the command line and the [Composer](https://getcomposer.org) package manager is also important — these two topics are usually covered by [beginner-level PHP tutorials](/blog/php-tutorials).
 
 Some knowledge of HTML and relational database management systems (Laravel supports four of them: MySQL, PostgreSQL, SQLite, and SQL Server) can also be helpful for an easy start.
 
@@ -109,7 +109,7 @@ Now, let’s take a closer look at the best Laravel tutorials!
 
 ### 1\. Official Laravel Docs (Beginners, Intermediate, Advanced)[](#1-official-laravel-docs-beginners-intermediate-advanced)
 
-The [official Laravel documentation](https://laravel.com/docs/) is a matter-of-fact description of the Laravel framework, maintained by the Laravel community and also [available on GitHub](https://github.com/laravel/docs). It starts with an installation guide and provides an overview of all Laravel concepts, such as templating, security, database management, and many others. You can also find the documentation of official Laravel packages here.
+The [official Laravel documentation](https://laravel.com/docs) is a matter-of-fact description of the Laravel framework, maintained by the Laravel community and also [available on GitHub](https://github.com/laravel/docs). It starts with an installation guide and provides an overview of all Laravel concepts, such as templating, security, database management, and many others. You can also find the documentation of official Laravel packages here.
 
 **Pros:**
 
@@ -131,7 +131,7 @@ It’s the best place to familiarize yourself with the features of new releases 
 
 ### 2\. Laravel News (Beginners, Intermediate, Advanced)[](#2-laravel-news-beginners-intermediate-advanced)
 
-[Laravel News](https://laravel-news.com/) is an all-inclusive Laravel tutorial site with multiple facets. It has a blog featuring the latest Laravel news, a section for Laravel tutorials covering topics from beginner to expert level, a bi-weekly Laravel podcast, and a Laravel newsletter that delivers every Sunday morning. Laravel News also showcases popular Laravel packages with a brief description and example code.
+[Laravel News](https://laravel-news.com) is an all-inclusive Laravel tutorial site with multiple facets. It has a blog featuring the latest Laravel news, a section for Laravel tutorials covering topics from beginner to expert level, a bi-weekly Laravel podcast, and a Laravel newsletter that delivers every Sunday morning. Laravel News also showcases popular Laravel packages with a brief description and example code.
 
 **Pros:**
 
@@ -152,9 +152,9 @@ Laravel News is the best free source for Laravel-related news. The tutorials are
 
 ### 3\. Tuts Make (Intermediate, Advanced)[](#3-tuts-make-intermediate-advanced)
 
-[Tuts Make](https://www.tutsmake.com/category/laravel-tutorial/) is a popular tutorial blog covering [different programming languages](/blog/scripting-languages/) and technologies, including Laravel. The tutorials are succinct and up-to-the-point, discussing common Laravel tasks, errors, and use cases. They include multiple code snippets that you can also use in your own projects.
+[Tuts Make](https://www.tutsmake.com/category/laravel-tutorial) is a popular tutorial blog covering [different programming languages](/blog/scripting-languages) and technologies, including Laravel. The tutorials are succinct and up-to-the-point, discussing common Laravel tasks, errors, and use cases. They include multiple code snippets that you can also use in your own projects.
 
-TutsMake has a separate category for [Laravel interview questions and answers](https://www.tutsmake.com/laravel-interview-questions-answers-for-1235-year-experience/), too, with straightforward and thoughtful explanations.
+TutsMake has a separate category for [Laravel interview questions and answers](https://www.tutsmake.com/laravel-interview-questions-answers-for-1235-year-experience), too, with straightforward and thoughtful explanations.
 
 **Pros:**
 
@@ -175,7 +175,7 @@ Tuts Make is definitely not for beginners. You’ll need at least an intermediat
 
 ### 4\. LaraShout (Beginners, Intermediate, Advanced)[](#4-larashout-beginners-intermediate-advanced)
 
-[LaraShout](https://www.larashout.com/) is a free tutorial website focusing completely on the Laravel framework. Besides hands-on Laravel tutorials, it also features guides on important theoretical concepts such as middleware, storage, queues and jobs, and others. Some of the tutorials are grouped as series so that you can get a deeper knowledge of each topic.
+[LaraShout](https://www.larashout.com) is a free tutorial website focusing completely on the Laravel framework. Besides hands-on Laravel tutorials, it also features guides on important theoretical concepts such as middleware, storage, queues and jobs, and others. Some of the tutorials are grouped as series so that you can get a deeper knowledge of each topic.
 
 Currently, LaraShout has four series: Collections, Design Patterns, E-Commerce Application Development, and Package Development.
 
@@ -222,9 +222,9 @@ If you are a beginner or already know some Laravel development but there are gap
 
 ### 1\. BitFumes (Beginners, Intermediate, Advanced)[](#1-bitfumes-beginners-intermediate-advanced)
 
-[BitFumes](https://bitfumes.com/) is an educational website featuring both free and paid screencasts and video courses in web development. Its [free Laravel tutorial section](https://bitfumes.com/courses/laravel) includes many high-quality video courses aimed mainly at beginners, but you can find some more advanced pieces here, too.
+[BitFumes](https://bitfumes.com) is an educational website featuring both free and paid screencasts and video courses in web development. Its [free Laravel tutorial section](https://bitfumes.com/courses/laravel) includes many high-quality video courses aimed mainly at beginners, but you can find some more advanced pieces here, too.
 
-There are also many free Laravel tutorials on [BitFumes’ YouTube channel](https://www.youtube.com/c/Bitfumes/playlists), including a [6.5 hours-long course](https://www.youtube.com/watch?v=BXiHvgrJfkg) covering Laravel development from the very basics to advanced topics such as [Livewire](https://laravel-livewire.com/) (needed for the TALL stack).
+There are also many free Laravel tutorials on [BitFumes’ YouTube channel](https://www.youtube.com/c/Bitfumes/playlists), including a [6.5 hours-long course](https://www.youtube.com/watch?v=BXiHvgrJfkg) covering Laravel development from the very basics to advanced topics such as [Livewire](https://laravel-livewire.com) (needed for the TALL stack).
 
 **Pros:**
 
@@ -268,7 +268,7 @@ If you have been doing Laravel development for a while and are a bit bored with 
 
 ### 3\. Laraning (Beginners, Intermediate)[](#3-laraning-beginners-intermediate)
 
-[Laraning](https://www.laraning.com/)‘s name comes from the words ‘Laravel’ and ‘learning’, and it stays true to this name as it’s fully dedicated to Laravel learning. It features free video courses, categorized as ‘Series’, ‘Features’, and ‘Courses’.
+[Laraning](https://www.laraning.com)‘s name comes from the words ‘Laravel’ and ‘learning’, and it stays true to this name as it’s fully dedicated to Laravel learning. It features free video courses, categorized as ‘Series’, ‘Features’, and ‘Courses’.
 
 ‘Series’ are loosely coupled video tutorials on Laravel packages and other topics. ‘Features’ are still under development and currently includes only one video tutorial on the Blade templating engine. ‘Courses’ are longer video tutorial series, such as the comprehensive ‘Laravel from A to Z’ course aimed at beginner learners.
 
@@ -315,9 +315,9 @@ Although it’s aimed at beginners, you might also find it useful if you already
 
 ### 5\. Let’s Build with Laravel: A Linktree Clone (Beginners, Intermediate)[](#5-lets-build-with-laravel-a-linktree-clone-beginners-intermediate)
 
-[Let’s Build with Laravel: A Linktree Clone](https://www.youtube.com/watch?v=30qk04BG9G4) is a fast-paced Laravel screencast that teaches you how to build a social media landing page builder application similar to the popular [Linktree](https://linktr.ee/) service.
+[Let’s Build with Laravel: A Linktree Clone](https://www.youtube.com/watch?v=30qk04BG9G4) is a fast-paced Laravel screencast that teaches you how to build a social media landing page builder application similar to the popular [Linktree](https://linktr.ee) service.
 
-The video is only 58 minutes long, as it doesn’t explain basic concepts or shows [how to install Laravel](/tutorial/install-laravel/), but goes straight into practice. This free Laravel tutorial has been created by Andrew Schmelyun who has [several other Laravel videos](https://www.youtube.com/playlist?list=PL36CGZHZJqsXntCJceGN8J2B9wFZD7GFe) on his YouTube channel that are also worth checking out.
+The video is only 58 minutes long, as it doesn’t explain basic concepts or shows [how to install Laravel](/tutorial/install-laravel), but goes straight into practice. This free Laravel tutorial has been created by Andrew Schmelyun who has [several other Laravel videos](https://www.youtube.com/playlist?list=PL36CGZHZJqsXntCJceGN8J2B9wFZD7GFe) on his YouTube channel that are also worth checking out.
 
 **Pros:**
 
@@ -338,7 +338,7 @@ This Laravel tutorial can be ideal for building your first app with the framewor
 
 ### 6\. The Laravel Podcast (Beginners, Intermediate, Advanced)[](#6-the-laravel-podcast-beginners-intermediate-advanced)
 
-[The Laravel Podcast](https://laravelpodcast.com/) is a bi-weekly podcast hosted by Matt Stauffer, featuring Laravel- and PHP-related discussions. Each episode centers around one topic, such as authentication, migrations, debugging, setting up a local environment, and others. The episodes are around 1.5 hours long, and you can listen to them either using the embedded podcast player or on Apple Podcasts.
+[The Laravel Podcast](https://laravelpodcast.com) is a bi-weekly podcast hosted by Matt Stauffer, featuring Laravel- and PHP-related discussions. Each episode centers around one topic, such as authentication, migrations, debugging, setting up a local environment, and others. The episodes are around 1.5 hours long, and you can listen to them either using the embedded podcast player or on Apple Podcasts.
 
 **Pros**
 
@@ -361,7 +361,7 @@ Even though a podcast is not a classic tutorial, it’s an excellent way to fami
 
 ### 1\. Laracasts (Beginners, Intermediate, Advanced)[](#1-laracasts-beginners-intermediate-advanced)
 
-[Laracasts](https://laracasts.com/) is a premium educational platform offering screencasts on web development. Although its primary focus is the Laravel framework, it also has courses on other technologies, most of which can be used together with Laravel, such as CSS, JavaScript, PHP, SQL, Vue.js, and more.
+[Laracasts](https://laracasts.com) is a premium educational platform offering screencasts on web development. Although its primary focus is the Laravel framework, it also has courses on other technologies, most of which can be used together with Laravel, such as CSS, JavaScript, PHP, SQL, Vue.js, and more.
 
 It also features five [Laracast Journeys](https://laracasts.com/skills/laravel): Laravel, Testing, PHP, JavaScript, and Tooling. A Journey is a collection of screencasts that you need for mastering a given skill.
 
@@ -385,7 +385,7 @@ Even if you don’t want to pay for the membership, it’s also worth signing up
 
 ### 2\. Laravel Daily (Beginners, Intermediate, Advanced)[](#2-laravel-daily-beginners-intermediate-advanced)
 
-[Laravel Daily](https://laraveldaily.teachable.com/) is the paid Laravel tutorial site of Povilas Korop, the creator of the aforementioned Laravel Business Youtube channel. Povilas has 10 paid and one free Laravel video tutorial series here, covering interesting topics such as creating an invoice making app with Laravel, building a CRUD SPA with Laravel and Vue, mastering Eloquent, creating a REST API with Laravel, and more.
+[Laravel Daily](https://laraveldaily.teachable.com) is the paid Laravel tutorial site of Povilas Korop, the creator of the aforementioned Laravel Business Youtube channel. Povilas has 10 paid and one free Laravel video tutorial series here, covering interesting topics such as creating an invoice making app with Laravel, building a CRUD SPA with Laravel and Vue, mastering Eloquent, creating a REST API with Laravel, and more.
 
 **Pros:**
 
@@ -408,7 +408,7 @@ It’s also an excellent choice if you want to acquire skills that are in high d
 
 ### 3\. CodeCourse (Intermediate, Advanced)[](#3-codecourse-intermediate-advanced)
 
-[CodeCourse](https://codecourse.com/) is a premium screencast platform for web development tutorials. Most of the screencasts are structured as ‘Paths’ and are available in four categories: Flutter, Vue.js, Laravel, and design patterns.
+[CodeCourse](https://codecourse.com) is a premium screencast platform for web development tutorials. Most of the screencasts are structured as ‘Paths’ and are available in four categories: Flutter, Vue.js, Laravel, and design patterns.
 
 The [Clean Laravel](https://codecourse.com/courses/clean-code-laravel) path consists of a video course and teaches you how to write high-quality, clean Laravel code. CodeCourse also has a shorter Laravel path called [Filtering with Laravel](https://codecourse.com/courses/filtering-in-laravel). Besides the paths, CodeCourse features [single courses](https://codecourse.com/library), too, where you can learn how to build different types of apps with Laravel, including a Twitter clone, a code snippet website, and an e-commerce platform.
 
@@ -436,9 +436,9 @@ Even though it’s a premium service, it’s really not expensive, so if you fin
 
 Building APIs and SPAs with Laravel, Vue.js, and Capacitor
 
-[The Ultimate Guide to Building APIs & Single-Page Applications with Laravel, Vue.js, and Capacitor](https://serversideup.net/ultimate-guide-to-building-apis-and-spas-with-laravel-and-vuejs/) is an ebook by Dan Pastori and Jay Rogers, available on ServerSideUp. It covers how to develop web and mobile applications from the same codebase — where all your apps communicate with a centralized API.
+[The Ultimate Guide to Building APIs & Single-Page Applications with Laravel, Vue.js, and Capacitor](https://serversideup.net/ultimate-guide-to-building-apis-and-spas-with-laravel-and-vuejs) is an ebook by Dan Pastori and Jay Rogers, available on ServerSideUp. It covers how to develop web and mobile applications from the same codebase — where all your apps communicate with a centralized API.
 
-The book goes through the process of building a real-world app called Roast, a coffee house finder application. It’s not just a demo but an [existing app](https://roastandbrew.coffee/) that allows you to sign up, add your favorite cafe, find coffee houses on a map, and more. You can install the Roast app on your [Android](https://play.google.com/store/apps/details?id=coffee.roastandbrew.mobile) or [iOS](https://apps.apple.com/us/app/roast-brew-coffee/id1510419686) device too.
+The book goes through the process of building a real-world app called Roast, a coffee house finder application. It’s not just a demo but an [existing app](https://roastandbrew.coffee) that allows you to sign up, add your favorite cafe, find coffee houses on a map, and more. You can install the Roast app on your [Android](https://play.google.com/store/apps/details?id=coffee.roastandbrew.mobile) or [iOS](https://apps.apple.com/us/app/roast-brew-coffee/id1510419686) device too.
 
 **Pros:**
 
@@ -459,7 +459,7 @@ The book goes through the process of building a real-world app called Roast, a c
 
 If you are already a seasoned Laravel developer, this ebook can expand your expertise and further broaden your knowledge. It guides you through how to support three codebases (web, iOS, Android) while building a complex application.
 
-It also pairs Laravel with cutting edge tools — the [Nuxt.js](https://nuxtjs.org/) frontend framework (built on top of Vue.js) and the [Capacitor](https://capacitorjs.com/) cross-platform runtime ([see docs](https://capacitorjs.com/docs)). Plus, it covers Laravel 8, so right now it’s the freshest Laravel book available on the market (already 380 pages and new chapters are still coming).
+It also pairs Laravel with cutting edge tools — the [Nuxt.js](https://nuxtjs.org) frontend framework (built on top of Vue.js) and the [Capacitor](https://capacitorjs.com) cross-platform runtime ([see docs](https://capacitorjs.com/docs)). Plus, it covers Laravel 8, so right now it’s the freshest Laravel book available on the market (already 380 pages and new chapters are still coming).
 
 ### 5\. LinkedIn Learning (Beginners, Intermediate)[](#5-linkedin-learning-beginners-intermediate)
 
@@ -489,7 +489,7 @@ If you want to work as a full-stack Laravel developer and don’t have a huge po
 
 Udemy is a global e-learning marketplace where independent creators are selling their video courses, not just in web development but also in many other subjects.
 
-The [Laravel topic](https://www.udemy.com/topic/laravel/) currently includes 280 courses at all knowledge levels. Udemy’s interface provides you with several different filters, such as price, ratings, duration, level, and more, to help you find the best Laravel tutorial for you. Besides English, it offers courses in other languages too.
+The [Laravel topic](https://www.udemy.com/topic/laravel) currently includes 280 courses at all knowledge levels. Udemy’s interface provides you with several different filters, such as price, ratings, duration, level, and more, to help you find the best Laravel tutorial for you. Besides English, it offers courses in other languages too.
 
 **Pros**
 
