@@ -5,7 +5,7 @@ description: A step by step guide
 date:   2022-09-27 00:00:00 -0800
 author: horacio 
 image:  '/images/minecraft.jpg'
-tags:   [gaming]
+tags:   [technology]
 tags_color: '#cc7690'
 ---
 Key steps we’ll cover in this guide:

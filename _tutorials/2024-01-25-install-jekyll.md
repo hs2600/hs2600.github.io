@@ -103,4 +103,4 @@ There are a few different commands worth looking at for different purposes in Je
 
 For local development, you can also use `jekyll serve`, but we recommend the slightly longer `bundle exec jekyll serve`. Don’t worry much about the difference - this is just so the versions you installed locally are used (and not some other version), which might save you some troubleshooting.
 
-> [Checkout](/blog/welcome-to-jekyll) the welcome page.
+> [Checkout](/blog/welcome-to-jekyll) the welcome page
