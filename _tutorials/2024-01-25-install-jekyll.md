@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Installing Jekyll
+title:  "Installing Jekyll: A Beginner's Tutorial"
 date:   2024-01-25 00:00:00 -0800
 description: Install Jekyll - a simple, blog aware static site generator Ruby Gem.
 author: horacio 
