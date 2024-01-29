@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  How to use Laravel Queues step-by-step tutorial
+title:  "How to use Laravel Queues: Step-by-step Tutorial"
 date:   2024-01-26 00:00:00 -0800
 description: 
 author: horacio 
