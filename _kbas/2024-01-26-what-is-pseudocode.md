@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  What Is Pseudocode? 
+title:  What Is Pseudocode? A Quick Start Guide
 date:   2024-01-26 00:00:00 -0800
 description:
 author: horacio 
