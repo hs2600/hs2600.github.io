@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  How to Install PHP on Any Server (Linux, macOS, Windows)
+title:  "Install PHP: A Beginner's Tutorial"
 date:   2024-01-26 00:00:00 -0800
-description:
+description: Quick Guide on Installing PHP on Any Server (Linux, macOS, Windows)
 author: horacio 
 image:  '/images/php.jpg'
 tags:   [technology]

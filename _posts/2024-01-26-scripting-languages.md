@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Top 13 Scripting Languages You Should Pay Attention To
+title:  Scripting Languages
 date:   2024-01-26 00:00:00 -0800
-description:
+description: 13 of the most popular Scripting Languages
 author: horacio 
 image:  '/images/code.jpg'
 tags:   [technology, coding]

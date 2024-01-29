@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  What Is MongoDB? All About the Popular Open Source Database
+title:  What Is MongoDB? A Quick Start Guide
 date:   2024-01-26 00:00:00 -0800
 description:
 author: horacio 

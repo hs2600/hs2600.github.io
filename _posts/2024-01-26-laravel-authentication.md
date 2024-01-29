@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  A Comprehensive Guide to Laravel Authentication
+title:  Laravel Authentication
 date:   2024-01-26 00:00:00 -0800
-description:
+description: A Beginner's Guide to Laravel Authentication
 author: horacio 
 image:  '/images/laravel.jpg'
 tags:   [technology, security]

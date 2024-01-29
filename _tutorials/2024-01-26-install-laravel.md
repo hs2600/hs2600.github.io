@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  How To Install Laravel on Windows, macOS, and Linux
+title:  How To Install Laravel
 date:   2024-01-26 00:00:00 -0800
-description:
+description: Installing Laravel on Windows, macOS, and Linux
 author: horacio 
 image:  '/images/laravel.jpg'
 tags:   [technology]

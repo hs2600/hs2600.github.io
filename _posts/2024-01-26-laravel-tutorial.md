@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  19 Best Laravel Tutorials (Free and Paid Resources)
+title:  List of Laravel Tutorials
 date:   2024-01-26 01:00:00 -0800
 description:
 author: horacio 
@@ -21,7 +21,6 @@ Ready? Let’s dig deeper!
 2.  [How to Learn Laravel](#how-to-learn-laravel)
 3.  [5 Best Free Laravel Tutorial Sites](#5-best-free-laravel-tutorial-sites)
 4.  [6 Best Free Laravel Tutorial Videos, Screencasts, and Podcasts](#6-best-free-laravel-tutorial-videos-screencasts-and-podcasts)
-5.  [8 Best Paid Laravel Tutorial Videos, Screencasts, and Books](#8-best-paid-laravel-tutorial-videos-screencasts-and-books)
 
 Why Learn Laravel[](#why-learn-laravel)
 ---------------------------------------
@@ -356,213 +355,6 @@ This Laravel tutorial can be ideal for building your first app with the framewor
 
 Even though a podcast is not a classic tutorial, it’s an excellent way to familiarize yourself with a new technology, hear the views of industry experts, and get updated with the latest features. So, The Laravel Podcast is a highly recommended Laravel resource for developers at any level.
 
-8 Best Paid Laravel Tutorial Videos, Screencasts, and Books[](#8-best-paid-laravel-tutorial-videos-screencasts-and-books)
--------------------------------------------------------------------------------------------------------------------------
-
-### 1\. Laracasts (Beginners, Intermediate, Advanced)[](#1-laracasts-beginners-intermediate-advanced)
-
-[Laracasts](https://laracasts.com) is a premium educational platform offering screencasts on web development. Although its primary focus is the Laravel framework, it also has courses on other technologies, most of which can be used together with Laravel, such as CSS, JavaScript, PHP, SQL, Vue.js, and more.
-
-It also features five [Laracast Journeys](https://laracasts.com/skills/laravel): Laravel, Testing, PHP, JavaScript, and Tooling. A Journey is a collection of screencasts that you need for mastering a given skill.
-
-**Pros:**
-
-*   screencasts are structured in three different ways (topics, series, journeys)
-*   easy-to-navigate website
-*   very high-quality screencasts (both audio and video)
-*   also have screencasts on popular Laravel packages (Envoyer, Forge, Nova, etc) and theory (SOLID principles, design patterns, etc.)
-*   active discussion forum (available with a free forum account)
-
-**Cons:**
-
-*   no free trial period
-
-#### When to Choose Laracasts[](#when-to-choose-laracasts)
-
-Laracasts are high-quality video tutorials, recommended at every level. Even though it’s a premium service, you can find some series that are completely free, for instance, an [intermediate series on Envoyer](https://laracasts.com/series/envoyer) and a [beginner series on Forge](https://laracasts.com/series/learn-laravel-forge). However, you can’t filter for free courses, so you’ll need to find them by yourself.
-
-Even if you don’t want to pay for the membership, it’s also worth signing up for a free forum account, especially if you need some community help with your code.
-
-### 2\. Laravel Daily (Beginners, Intermediate, Advanced)[](#2-laravel-daily-beginners-intermediate-advanced)
-
-[Laravel Daily](https://laraveldaily.teachable.com) is the paid Laravel tutorial site of Povilas Korop, the creator of the aforementioned Laravel Business Youtube channel. Povilas has 10 paid and one free Laravel video tutorial series here, covering interesting topics such as creating an invoice making app with Laravel, building a CRUD SPA with Laravel and Vue, mastering Eloquent, creating a REST API with Laravel, and more.
-
-**Pros:**
-
-*   live coding of real-world Laravel projects
-*   well-documented, logically structured course content
-*   one free [practical crash course for beginners](https://laraveldaily.teachable.com/p/laravel-for-beginners-your-first-project)
-*   all code examples are [available on GitHub](https://github.com/LaravelDaily)
-*   you can enroll/pay via the secure Teachable platform
-*   you can send your questions to Povilas by email
-
-**Cons**
-
-*   there’s no publish date on the courses (although you can guess it from the commit history of the related GitHub repo)
-
-#### When to Choose Laravel Daily[](#when-to-choose-laravel-daily)
-
-Laravel Daily is recommended for Laravel developers at any level. If you are already a subscriber to the Laravel Business channel and like Povilas’ teaching style, his paid video courses on Laravel Daily can be the next logical step in your Laravel journey.
-
-It’s also an excellent choice if you want to acquire skills that are in high demand on the job market, such as API or SaaS development with Laravel.
-
-### 3\. CodeCourse (Intermediate, Advanced)[](#3-codecourse-intermediate-advanced)
-
-[CodeCourse](https://codecourse.com) is a premium screencast platform for web development tutorials. Most of the screencasts are structured as ‘Paths’ and are available in four categories: Flutter, Vue.js, Laravel, and design patterns.
-
-The [Clean Laravel](https://codecourse.com/courses/clean-code-laravel) path consists of a video course and teaches you how to write high-quality, clean Laravel code. CodeCourse also has a shorter Laravel path called [Filtering with Laravel](https://codecourse.com/courses/filtering-in-laravel). Besides the paths, CodeCourse features [single courses](https://codecourse.com/library), too, where you can learn how to build different types of apps with Laravel, including a Twitter clone, a code snippet website, and an e-commerce platform.
-
-**Pros:**
-
-*   new content is regularly added
-*   abundant information on paths and courses
-*   high-quality screencasts (both video and audio)
-*   focuses on hands-on skills
-*   features short screencasts called [‘Snippets’](https://codecourse.com/courses/build-a-code-snippet-website-with-me) for free
-*   intro videos are available for free
-
-**Cons:**
-
-*   poorly structured website (it’s not clear that they have different types of content, single courses are only available from the ‘Library’ menu, ‘Snippets’ are hard to find, etc)
-*   no free trial
-
-#### When to Choose CodeCourse[](#when-to-choose-codecourse)
-
-To benefit from CodeCourse’s Laravel screencasts, you’ll need to be familiar with the basics of Laravel development. However, if you have an intermediate knowledge of the framework or are already working in the industry, you can learn many new things here.
-
-Even though it’s a premium service, it’s really not expensive, so if you find a course or path you are interested in, it’s a good investment of your time and effort.
-
-### 4\. Building APIs and SPAs with Laravel, Vue.js, and Capacitor (Advanced)[](#4-building-apis-and-spas-with-laravel-vuejs-and-capacitor-advanced)
-
-Building APIs and SPAs with Laravel, Vue.js, and Capacitor
-
-[The Ultimate Guide to Building APIs & Single-Page Applications with Laravel, Vue.js, and Capacitor](https://serversideup.net/ultimate-guide-to-building-apis-and-spas-with-laravel-and-vuejs) is an ebook by Dan Pastori and Jay Rogers, available on ServerSideUp. It covers how to develop web and mobile applications from the same codebase — where all your apps communicate with a centralized API.
-
-The book goes through the process of building a real-world app called Roast, a coffee house finder application. It’s not just a demo but an [existing app](https://roastandbrew.coffee) that allows you to sign up, add your favorite cafe, find coffee houses on a map, and more. You can install the Roast app on your [Android](https://play.google.com/store/apps/details?id=coffee.roastandbrew.mobile) or [iOS](https://apps.apple.com/us/app/roast-brew-coffee/id1510419686) device too.
-
-**Pros:**
-
-*   written by industry experts
-*   well-structured content (table of content is available on the sales page)
-*   two free chapters (however, you need to sign up to the ServerSideUp newsletter to get them)
-*   optimized Sketch and Figma icon templates for Capacitor
-*   available in three different formats (PDF, EPUB, MOBI)
-*   access to a private online community to get help (only if you buy the more expensive package)
-*   lifetime access and updates
-*   a couple of free, [advanced-level Laravel tutorials](https://serversideup.net/search/?type=courses) on the ServerSideUp site
-
-**Cons:**
-
-*   additional video tutorials (advertised as part of the more expensive package) are still under construction
-
-#### When to Choose ‘Building APIs and SPAs with Laravel, Vue.js, and Capacitor’[](#when-to-choose-building-apis-and-spas-with-laravel-vuejs-and-capacitor)
-
-If you are already a seasoned Laravel developer, this ebook can expand your expertise and further broaden your knowledge. It guides you through how to support three codebases (web, iOS, Android) while building a complex application.
-
-It also pairs Laravel with cutting edge tools — the [Nuxt.js](https://nuxtjs.org) frontend framework (built on top of Vue.js) and the [Capacitor](https://capacitorjs.com) cross-platform runtime ([see docs](https://capacitorjs.com/docs)). Plus, it covers Laravel 8, so right now it’s the freshest Laravel book available on the market (already 380 pages and new chapters are still coming).
-
-### 5\. LinkedIn Learning (Beginners, Intermediate)[](#5-linkedin-learning-beginners-intermediate)
-
-LinkedIn Learning, previously called Lynda.com, is a premium e-learning platform that offers a complete [learning path in Laravel development](https://www.linkedin.com/learning/paths/become-a-laravel-developer).
-
-It consists of five separate courses, starting with (1) Laravel basics, then covering (2) testing, security, and deployment, (3) RESTful API building, (4) Vue basics, and (5) using Vue.js and Laravel together as a full-stack environment. If you accomplish this learning path, you will have sufficient knowledge to start your career as a full-stack Laravel developer.
-
-**Pros**
-
-*   instructors are industry experts (Justin Yost, Ray Villalobos, Michael Sullivan)
-*   high-quality, professional videos audited by LinkedIn
-*   well-structured, easy-to-navigate content
-*   transcripts are available
-*   you can earn a Linkedin badge of completion
-*   one-month free trial
-*   mobile apps available for [Android](https://play.google.com/store/apps/details?id=com.linkedin.android.learning&hl=en) and [iOS](https://apps.apple.com/us/app/linkedin-learning/id1084807225)
-
-**Cons**
-
-*   the courses cover Laravel 5 and 6, so might contain outdated info at some places
-
-#### When to Choose LinkedIn Learning[](#when-to-choose-linkedin-learning)
-
-If you want to work as a full-stack Laravel developer and don’t have a huge portfolio, LinkedIn Learning’s Laravel path might help you find a job, as you can display the completion badge on your LinkedIn profile (see [what it exactly means](https://www.linkedin.com/help/learning/answer/82977/learning-certificates-of-completion-faqs?lang=en)). It can also be a good choice if you want to do a longer course on full-stack Laravel development, where all the necessary content is already collected for you.
-
-### 6\. Udemy (Beginners, Intermediate, Advanced)[](#6-udemy-beginners-intermediate-advanced)
-
-Udemy is a global e-learning marketplace where independent creators are selling their video courses, not just in web development but also in many other subjects.
-
-The [Laravel topic](https://www.udemy.com/topic/laravel) currently includes 280 courses at all knowledge levels. Udemy’s interface provides you with several different filters, such as price, ratings, duration, level, and more, to help you find the best Laravel tutorial for you. Besides English, it offers courses in other languages too.
-
-**Pros**
-
-*   easy-to-navigate user interface
-*   abundant information on courses
-*   a very wide selection of Laravel courses
-*   subtitles in different languages (depending on the course)
-*   certificate of completion
-*   30-day money-back guarantee
-*   mobile apps available for [Android](https://play.google.com/store/apps/details?id=com.udemy.android&hl=en) and [iOS](https://apps.apple.com/us/app/udemy-online-video-courses/id562413829)
-
-**Cons**
-
-*   quality of video and audio varies, as the courses are uploaded by indie authors
-
-#### When to Choose Udemy[](#when-to-choose-udemy)
-
-As Udemy offers almost 300 Laravel tutorial video series, you need to put some time and effort to find what you need. It’s worth paying attention to the ‘best seller’, ‘new’, and ‘hot &  new’ labels, even though you can’t filter for these characteristics.
-
-Don’t forget to read the student reviews and watch the previews, as Udemy is not a centralized platform with a standardized quality assurance process. If you run into a bad apple, you can still get your money back using the 30-day money-back guarantee.
-
-### 7\. Skillshare (Beginners, Intermediate)[](#7-skillshare-beginners-intermediate)
-
-Skillshare is another e-learning marketplace similar to Udemy, however, it uses a different pricing model. Here, you don’t pay for individual courses, but you are charged with a monthly fee for which you can access all Skillshare courses.
-
-Currently, Skillshare lists 22 [Laravel video courses](https://www.skillshare.com/search?query=Laravel) created by independent teachers — however, note that some PHP courses are also listed as a ‘Laravel course’ for some reason.
-
-Most of Skillshare’s Laravel courses focus on practical skills, such as building a personal budget website, a todo app, a mailing list filter, a task scheduler admin panel, and a few others.
-
-**Pros:**
-
-*   well-structured courses
-*   easy-to-navigate interface
-*   built-in note-taking functionality
-*   videos are captioned (English)
-*   mobile apps available for [iOS](https://apps.apple.com/app/apple-store/id916819843) and [Android](https://play.google.com/store/apps/details?id=com.skillshare.Skillshare&referrer=utm_source%3Dskillshare%26utm_medium%3Dsite-footer)
-*   7-day free trial (credit card details are required)
-
-**Cons:**
-
-*   you have to sign up to see pricing plans
-*   video quality varies across courses
-*   no publish date on courses (even though you can filter for courses ‘created this year’)
-
-#### When to Choose Skillshare[](#when-to-choose-skillshare)
-
-Although Laravel development is not the main focus of Skillshare, you can find some good, premium-level courses here. If you already have a Skillshare membership, it’s also worth having a look at the Laravel tutorial videos.
-
-Alternatively, if you are new to Skillshare but are interested in other topics they’re teaching (there are plenty besides web development, from photography to music to creative writing), it can also be a good idea to sign up for a membership.
-
-### 8\. Eduonix (Beginners, Intermediate)[](#8-eduonix-beginners-intermediate)
-
-Eduonix is an online learning marketplace with independent instructors, similar to Udemy and Skillshare. It uses the same pricing model as Udemy, so you pay for each course individually (however, it has an option for [lifetime membership](https://www.eduonix.com/lifetime-learning-access) to all Eduonix courses and some [bundle discounts](https://www.eduonix.com/offer-zone) as well).
-
-Currently, it offers [16 Laravel video courses](https://www.eduonix.com/search?proname=laravel), most of which guide you through a hands-on project, such as creating a hotel app with translation into four languages, a single page forum application, a contact manager app with a Vue frontend (this one is in the ‘Learn Laravel Building 10 Projects’ course), and others.
-
-**Pros:**
-
-*   detailed information on course content (including when it was last updated)
-*   real-world projects
-*   advanced filtering system
-*   certificate of completion
-*   30-day money-back guarantee
-
-**Cons:**
-
-*   quality of video and audio varies across courses
-*   cheap coupon site look & feel
-
-#### When to Choose Eduonix[](#when-to-choose-eduonix)
-
-Eduonix can be a good choice for you if you are more interested in hands-on app building than theory. Even though it doesn’t offer multitudes of courses on Laravel development, it’s worth keeping an eye on it, especially because some creators sell their courses on both Udemy and Eduonix, but with a different price tag (usually Eduonix being the cheaper one).
-
 Summary[](#summary)
 -------------------
 
@@ -573,7 +365,5 @@ You don’t necessarily have to start with just one Laravel tutorial, but you ca
 If you are not sure about what skills you’ll need, it can be a good idea to browse job sites such as LaraJobs to see what’s in demand in the market (this can change with time).
 
 You can also use a project planning app such as Trello or one of its alternatives to track your progress, set up deadlines and reminders, and keep motivating yourself by following through your learning plan.
-
-If you choose a paid Laravel tutorial, it’s usually better to start with the monthly subscription than paying for one year in advance, until you know what you can expect (even if the monthly fee is lower with the annual subscription).
 
 Finally, start to build a working Laravel app as early as possible in the learning process. Seeing that you have been able to accomplish a real-world project can help you keep up with learning and reach your goals.
