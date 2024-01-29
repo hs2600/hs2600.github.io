@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  What Is GitHub? A Beginner’s Introduction to GitHub
+title:  What Is GitHub? A Tutorial for Beginners
 date:   2024-01-26 00:00:00 -0800
 description:
 author: horacio 
