@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Install Laravel: A Beginner's Tutorial"
+title:  "Installing Laravel: A Beginner's Tutorial"
 date:   2024-01-26 00:00:00 -0800
 description: Installing Laravel on Windows, macOS, and Linux
 author: horacio 
