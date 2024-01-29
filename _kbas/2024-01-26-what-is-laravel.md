@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  What is Laravel?
+title:  What is Laravel? A Quick Start Guide
 date:   2024-01-26 01:00:00 -0800
 description:
 author: horacio 
