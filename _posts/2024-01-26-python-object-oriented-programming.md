@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  A Beginner’s Guide to Python Object-Oriented Programming (OOP)
+title:  "Python: A Beginner’s Guide"
 date:   2024-01-26 00:00:00 -0800
-description:
+description: A Beginner’s Guide to Python Object-Oriented Programming
 author: horacio 
 image:  '/images/python.png'
 tags:   [technology, coding]
