@@ -19,8 +19,8 @@ Ready? Let’s dig deeper!
 
 1.  [Why Learn Laravel](#why-learn-laravel)
 2.  [How to Learn Laravel](#how-to-learn-laravel)
-3.  [5 Best Free Laravel Tutorial Sites](#5-best-free-laravel-tutorial-sites)
-4.  [6 Best Free Laravel Tutorial Videos, Screencasts, and Podcasts](#6-best-free-laravel-tutorial-videos-screencasts-and-podcasts)
+3.  [4 Best Free Laravel Tutorial Sites](#5-best-free-laravel-tutorial-sites)
+4.  [5 Best Free Laravel Tutorial Videos, Screencasts, and Podcasts](#6-best-free-laravel-tutorial-videos-screencasts-and-podcasts)
 
 Why Learn Laravel[](#why-learn-laravel)
 ---------------------------------------
@@ -172,29 +172,7 @@ TutsMake has a separate category for [Laravel interview questions and answers](h
 
 Tuts Make is definitely not for beginners. You’ll need at least an intermediate knowledge of Laravel to understand these tutorials, as they are very code-based, without much discussion of theory. The tutorials are also not related to each other — Tuts Make is a blog, not a step-by-step Laravel tutorial series. If you are looking for a Laravel job, don’t miss out on its interview Q&A section; it’s really good.
 
-### 4\. LaraShout (Beginners, Intermediate, Advanced)[](#4-larashout-beginners-intermediate-advanced)
-
-[LaraShout](https://www.larashout.com) is a free tutorial website focusing completely on the Laravel framework. Besides hands-on Laravel tutorials, it also features guides on important theoretical concepts such as middleware, storage, queues and jobs, and others. Some of the tutorials are grouped as series so that you can get a deeper knowledge of each topic.
-
-Currently, LaraShout has four series: Collections, Design Patterns, E-Commerce Application Development, and Package Development.
-
-**Pros:**
-
-*   easy-to-navigate website
-*   tutorials start with a table of content
-*   rich content (high-quality images, code examples, alert messages, etc)
-*   both theory- and practice-based tutorials
-
-**Cons:**
-
-*   some categories include just two or three tutorials
-*   less frequently updated
-
-#### When to Choose LaraShout[](#when-to-choose-larashout)
-
-LaraShout is primarily recommended for intermediate and advanced learners, even though it also has some beginner-level tutorials. The four Laravel tutorial series are especially worth checking out — however, note that they don’t necessarily cover everything you’ll need, as LaraShout is more of a tech blog than a comprehensive educational site.
-
-### 5\. Learn2torials (Beginners, Intermediate)[](#5-learn2torials-beginners-intermediate)
+### 4\. Learn2torials (Beginners, Intermediate)[](#5-learn2torials-beginners-intermediate)
 
 [Learn2torials](https://learn2torials.com/category/laravel) is a one-person project by Sandip Patel, featuring free tutorials on different programming languages and frameworks. The Laravel tutorial section covers many important aspects of the framework, from installation to backups to caching.
 
@@ -239,11 +217,11 @@ There are also many free Laravel tutorials on [BitFumes’ YouTube channel](http
 
 #### When to Choose BitFumes[](#when-to-choose-bitfumes)
 
-BitFumes’ YouTube channel is worth browsing through in any case, even if you are at an advanced level. The free tutorials on the BitFumes website cover many beginner-level topics that are hard to find for free elsewhere. It also has [one premium Laravel course](https://bitfumes.com/premium/in-depth-laravel) including advanced topics such as Stripe integration and test-driven development.
+BitFumes’ YouTube channel is worth browsing through in any case, even if you are at an advanced level. The free tutorials on the BitFumes website cover many beginner-level topics that are hard to find for free elsewhere.
 
-### 2\. Laravel Business by Povilas Korop (Beginners, Intermediate, Advanced)[](#2-laravel-business-by-povilas-korop-beginners-intermediate-advanced)
+### 2\. Laravel Daily by Povilas Korop (Beginners, Intermediate, Advanced)[](#2-laravel-business-by-povilas-korop-beginners-intermediate-advanced)
 
-[Laravel Business](https://www.youtube.com/channel/UCTuplgOBi6tJIlesIboymGA/featured) is a popular YouTube channel including free video tutorials on how to use Laravel for business. It’s a one-person project by Povilas Korop who is also the author of Laravel Daily (see below in the paid section).
+[Laravel Daily](https://www.youtube.com/channel/UCTuplgOBi6tJIlesIboymGA/featured) is a popular YouTube channel including free video tutorials on how to use Laravel.
 
 On his channel, he publishes several YouTube videos every week, discussing topics such as Blade, Eloquent, PHPUnit, SaaS applications, and many others. Besides hands-on tutorials, Povilas also does comparisons, provides career and business advice, and under the ‘Community’ tab, he shares the ‘Laravel tip of the day’ on a daily basis.
 
@@ -259,36 +237,13 @@ On his channel, he publishes several YouTube videos every week, discussing topic
 
 *   videos are hard to search through
 
-#### When to Choose Laravel Business[](#when-to-choose-laravel-business)
+#### When to Choose Laravel Daily[](#when-to-choose-laravel-business)
 
-Even though Laravel Business is primarily aimed at more advanced users, it can also be a great Laravel resource for beginners, especially Povilas’ business and career advice.
+Even though Laravel Daily is primarily aimed at more advanced users, it can also be a great Laravel resource for beginners, especially Povilas’ business and career advice.
 
 If you have been doing Laravel development for a while and are a bit bored with your job, this channel can help you gain back your motivation, as it discusses many interesting things, new features, and specific use cases you won’t find elsewhere.
 
-### 3\. Laraning (Beginners, Intermediate)[](#3-laraning-beginners-intermediate)
-
-[Laraning](https://www.laraning.com)‘s name comes from the words ‘Laravel’ and ‘learning’, and it stays true to this name as it’s fully dedicated to Laravel learning. It features free video courses, categorized as ‘Series’, ‘Features’, and ‘Courses’.
-
-‘Series’ are loosely coupled video tutorials on Laravel packages and other topics. ‘Features’ are still under development and currently includes only one video tutorial on the Blade templating engine. ‘Courses’ are longer video tutorial series, such as the comprehensive ‘Laravel from A to Z’ course aimed at beginner learners.
-
-**Pros:**
-
-*   well-structured courses
-*   easy-to-navigate website
-*   practical, real-world examples
-*   full HD videos
-*   code content is [available on GitHub](https://github.com/laraning)
-
-**Cons:**
-
-*   still under development
-*   no publication date on videos
-
-#### When to Choose Laraning[](#when-to-choose-laraning)
-
-As the Laraning website is not fully baked yet, you’ll find missing features here and there. For instance, the ‘Sign In’ button still doesn’t work and some of the series include only two video pieces. However, the tutorials that are already published are high-quality and definitely worth checking out, especially the Laravel from A to Z course if you are just getting started with the framework.
-
-### 4\. Laravel PHP Framework Tutorial by FreeCodeCamp (Beginners, Intermediate)[](#4-laravel-php-framework-tutorial-by-freecodecamp-beginners-intermediate)
+### 3\. Laravel PHP Framework Tutorial by FreeCodeCamp (Beginners, Intermediate)[](#4-laravel-php-framework-tutorial-by-freecodecamp-beginners-intermediate)
 
 [Laravel PHP Framework Tutorial](https://www.youtube.com/watch?v=ImtZ5yENzgE) is a beginner-level video course by the FreeCodeCamp online learning platform. Even though the backend part of FreeCodeCamp’s curriculum centers around Python, it also shares educational videos on other backend languages on its Youtube channel, created by members of its open source community.
 
@@ -312,7 +267,7 @@ If you want to learn Laravel through building the clone of a highly popular, rea
 
 Although it’s aimed at beginners, you might also find it useful if you already have some Laravel knowledge but want to learn how to put together an Instagram-like application.
 
-### 5\. Let’s Build with Laravel: A Linktree Clone (Beginners, Intermediate)[](#5-lets-build-with-laravel-a-linktree-clone-beginners-intermediate)
+### 4\. Let’s Build with Laravel: A Linktree Clone (Beginners, Intermediate)[](#5-lets-build-with-laravel-a-linktree-clone-beginners-intermediate)
 
 [Let’s Build with Laravel: A Linktree Clone](https://www.youtube.com/watch?v=30qk04BG9G4) is a fast-paced Laravel screencast that teaches you how to build a social media landing page builder application similar to the popular [Linktree](https://linktr.ee) service.
 
@@ -335,7 +290,7 @@ Although the video’s description on Youtube says that it’s meant for beginne
 
 This Laravel tutorial can be ideal for building your first app with the framework, but also if you want to improve your application development skills.
 
-### 6\. The Laravel Podcast (Beginners, Intermediate, Advanced)[](#6-the-laravel-podcast-beginners-intermediate-advanced)
+### 5\. The Laravel Podcast (Beginners, Intermediate, Advanced)[](#6-the-laravel-podcast-beginners-intermediate-advanced)
 
 [The Laravel Podcast](https://laravelpodcast.com) is a bi-weekly podcast hosted by Matt Stauffer, featuring Laravel- and PHP-related discussions. Each episode centers around one topic, such as authentication, migrations, debugging, setting up a local environment, and others. The episodes are around 1.5 hours long, and you can listen to them either using the embedded podcast player or on Apple Podcasts.
 
