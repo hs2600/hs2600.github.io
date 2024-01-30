@@ -15,8 +15,6 @@ Currently, Python is the [second most popular programming language](https://madn
 
 We’ve curated a list of the best Python tutorials, including both free and paid resources.
 
-### Check Out Our Video Guide to [the Best Python Tutorials](https://www.youtube.com/watch?v=XDgtp1VFSYU)[](#check-out-our-video-guide-to-the-best-python-tutorials)
-
 ### Table of Contents
 
 1.  [What Is Python?](#what-is-python)

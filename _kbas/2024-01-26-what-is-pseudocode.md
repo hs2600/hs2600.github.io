@@ -25,8 +25,6 @@ Let’s dive right in.
 2.  [Benefits of Writing Pseudocode](#benefits-of-writing-pseudocode)
 3.  [How To Write Pseudocode](#how-to-write-pseudocode)
 
-**Check Out Our [Video Guide On Pseudocode](https://www.youtube.com/watch?v=zMRlK7mzows):**
-
 What Is Pseudocode?[](#what-is-pseudocode)
 ------------------------------------------
 

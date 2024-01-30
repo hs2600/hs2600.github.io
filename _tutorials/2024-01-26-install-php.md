@@ -26,8 +26,6 @@ Let’s begin!
 5.  [How to Install PHP on macOS](#how-to-install-php-on-macos)
 6.  [All About PHP Extensions](#all-about-php-extensions)
 
-### Check out our video guide to installing PHP[](#check-out-our-video-guide-to-installing-php)
-
 What is PHP?[](#what-is-php)
 ----------------------------
 
