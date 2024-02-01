@@ -17,7 +17,7 @@ tags_color: '#477690'
 
 [TensorFlow Use Cases](#tensorflow-use-cases)
 
-[It’s All About Machine Learning](#it’s-all-about-machine-learning)
+[It’s All About Machine Learning](#its-all-about-machine-learning)
 
 [Tensorflow Playground](#tensorflow-playground)
 
@@ -74,7 +74,7 @@ TensorFlow has a number of pieces that come together to make the whole. Some of 
 
 ### **TensorFlow.js**
 
-Allows the use of standard JavaScript models and can build and train models directly in [JavaScript](https://www.bairesdev.com/javascript/common-uses/#development-projects).
+Allows the use of standard JavaScript models and can build and train models directly in [JavaScript](/blog/scripting-languages#1-javascriptecmascript).
 
 ### **TensorFlow Federated**
 
@@ -96,7 +96,7 @@ A Python library for the combining of probabilistic models and deep learning.
 
 A library of deep learning models and datasets.
 
-**It’s All About Machine Learning**
+**Its All About Machine Learning**
 -----------------------------------
 
 Machine learning is in everything. With the help of machine learning, devices continue to grow smarter and more efficient. Considering that data is the lifeblood of businesses, every company has become dependent on the information it provides. From customer data to B2B information (and everything in between), businesses have become profoundly reliant on data.
@@ -119,4 +119,42 @@ And predicting behavior? Unless your company has a data scientist on-hand, that�
 **Tensorflow Playground**
 -----------------------------------
 
-Access Tensorflow Playground here: [Playground](https://playground.tensorflow.org)
+Google’s TensorFlow [Playground](https://playground.tensorflow.org) is an interactive visualisation of neural networks. With it, you can simulate small neural networks in real-time in your browser, and see the results instantly.
+
+Google’s TensorFlow Playground is an interactive visualisation of neural networks. With it, you can simulate small neural networks in real-time in your browser, and see the results instantly.
+
+Here, we we will train your first little neural network and help to familiarise you with the concept of artificial neural networks (ANNs). 
+
+### The concept of ANNs
+
+The main purpose of this task is to explore a bit of what is happening inside the most famous machine learning algorithms and to understand how typical parameters influence learning.
+
+### The Task:
+
+#### 1. [Go to playground.tensorflow.org](https://playground.tensorflow.org)
+
+#### 2. Settings
+
+In the top part of the menu you’ll see the network hyperparameter (settings):
+
+*   Learning rate; how fast the network learns
+*   Activation function (a mathematic function – don’t worry, you can just try different ones if you like; ReLu learns fastest);
+*   Epoch; the number of times that the ANN will work through the entire training dataset
+*   Regularisation; ensures better training
+
+#### 3. Data
+
+*   Select the type of data you want to use from Data (on the left side) and the classification type problem
+*   NB. There are four types of classification and two types of regression (regression means that one does not just predict classes, but also real values, e.g. the colour intensity in these examples).
+
+#### 4. Increasing the number of neurons – Linear activation
+
+*   Try increasing the number of neurons in the hidden layer from 1 to 2, and also try changing from a linear activation to a nonlinear activation like ReLU.\_\_
+
+#### 5. Increasing the number of neurons – Nonlinear activation
+
+*   Try increasing the number of neurons in the hidden layer from 2 to 3, using a nonlinear activation like ReLU.
+
+#### 6. Adding or removing hidden layers
+
+*   Continue experimenting by adding or removing hidden layers and neurons per layer. Feel free to change learning rates, regularisation and other learning settings.
