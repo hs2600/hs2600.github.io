@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  The 40 Most-Used Linux Commands You Should Know
+title:  Linux Commands
 date:   2024-01-26 00:01:00 -0800
-description:
+description: Some of the most common Linux commands
 author: horacio 
 image:  '/images/linux.webp'
 tags:   [technology, linux]
