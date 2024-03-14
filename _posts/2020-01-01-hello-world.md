@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  
-date:   2010-01-01 00:00:00 -0800
+date:   2020-01-01 00:00:00 -0800
 description:
 author: horacio 
 image:  '/images/blog_tech.jpg'
