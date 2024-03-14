@@ -56,7 +56,7 @@ SIZE = (75, 75)
 
 img.thumbnail(SIZE)
 
-img.save('thumbnail\image.png')
+img.save('thumbnails/image.png')
 ```
 
 ## Create thumbnails
@@ -75,7 +75,7 @@ for infile in glob.glob("*.jpg"):
     file, ext = os.path.splitext(infile)
     with Image.open(infile) as im:
         im.thumbnail(size)
-        im.save(file + ".thumbnail", "JPEG")
+        im.save("thumbnails/" + file + ".jpg", "JPEG")
 ```
 
 ### Version 2
