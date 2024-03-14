@@ -97,6 +97,6 @@ def resize_image(image, thumbnail_path):
 for infile in glob.glob("*.jpg"):
     file, ext = os.path.splitext(infile)
     # Generate thumbnail
-    thumbnail_path = "thumbnails/{}".format(file)
+    thumbnail_path = "thumbnails/{}{}".format(file, ext)
     resize_image(infile, thumbnail_path)
 ```
