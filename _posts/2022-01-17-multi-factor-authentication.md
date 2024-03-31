@@ -8,6 +8,7 @@ author: horacio
 image:  '/images/mfa.webp'
 tags:   [security]
 tags_color: '#993333'
+featured: true
 ---
 Multi Factor Authentication (MFA), is the process of confirming a user’s identity with the use of two or more security mechanisms (factors). Only after all pieces of evidence have been successfully confirmed, access to the user is granted.
 

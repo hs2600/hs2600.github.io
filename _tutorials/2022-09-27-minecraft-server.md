@@ -7,6 +7,7 @@ author: horacio
 image:  '/images/minecraft.jpg'
 tags:   [technology]
 tags_color: '#cc7690'
+featured: true
 ---
 Key steps we’ll cover in this guide:
 

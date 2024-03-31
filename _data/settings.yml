@@ -73,7 +73,7 @@ author__section:
 #-------------------------------
 # Newsletter Settings
 newsletter__settings:
-  enable: true
+  enable: false
   newsletter__title: Subscribe 
   newsletter__description: Join my mailing list for a future newsletter.
   newsletter__email: mnqejawn # formspree integration
