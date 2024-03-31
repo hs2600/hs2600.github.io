@@ -2,11 +2,12 @@
 layout: post
 title: How to create image thumbnails with Python
 date:   2024-03-13 00:00:00 -0800
-description:
+description: Includes sample script
 author: horacio 
 image:  '/images/python.png'
 tags:   [kba, technology]
 tags_color: '#477690'
+featured: true
 ---
 
 ### The `PIL` library

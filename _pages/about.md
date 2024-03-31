@@ -15,9 +15,9 @@ I'm currently pouring my heart and soul into building a [SaaS](https://nefcloud.
 
 <div class="gallery-box" style="margin: 60px auto;">
   <div class="gallery">
-    <img src="/images/horacio_lacma.jpg" loading="lazy" style="    max-width: 30rem;
-    border-radius: 20px;">
+    <!-- <img src="/images/horacio_lacma.jpg" loading="lazy" style="    max-width: 30rem;
+    border-radius: 20px;"> -->
   </div>
 </div>
 
-Become part of our tech-savvy community! Subscribe to our newsletter below and get personalized insights on technology, web dev, and cybersecurity.
+<!-- Become part of our tech-savvy community! Subscribe to our newsletter below and get personalized insights on technology, web dev, and cybersecurity. -->
