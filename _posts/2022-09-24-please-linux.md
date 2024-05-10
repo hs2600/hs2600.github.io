@@ -41,12 +41,12 @@ An alias is just a name we can use to assign any command. For example we could a
 
 Follow these quick steps to add the alias permanently in your linux system.
 
-Edit the ~/.bash_aliases or ~/.bashrc (recommended) file using a text editor:
+Edit the ~/.bashrc (recommended) or ~/.bash_aliases file using a text editor:
 
 {% highlight bash %}
-  vi ~/.bash_aliases
+  vi ~/.bashrc
 # or #
-  nano ~/.bashrc
+  vi ~/.bash_aliases
 {% endhighlight %}
 
 Append your bash alias
