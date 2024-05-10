@@ -36,7 +36,7 @@ An alias is just a name we can use to assign any command. For example we could a
 ***Note:*** fc is a built-in command in the bash shell that lists, edits and executes commands previously entered to an interactive shell. This is the final command:
 
 {% highlight bash %}
-  alias please = 'sudo $(fc -ln -1)'
+  alias please='sudo $(fc -ln -1)'
 {% endhighlight %}
 
 Follow these quick steps to add the alias permanently in your linux system.
@@ -52,7 +52,7 @@ Edit the ~/.bashrc (recommended) or ~/.bash_aliases file using a text editor:
 Append your bash alias
 
 {% highlight bash %}
-  alias please = 'sudo $(fc -ln -1)'
+  alias please='sudo $(fc -ln -1)'
 {% endhighlight %}
 
 Save and close the file.
